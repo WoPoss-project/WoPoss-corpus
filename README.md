@@ -1,2 +1,3 @@
-# WoPoss-corpus
-The WoPoss modality corpus
+# The WoPoss modality corpus
+
+[add info]

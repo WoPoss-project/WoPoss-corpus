@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs_metadata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs_metadata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Metadata of the WoPoss modality corpus</title>
+            <principal>Francesca Dell’Oro</principal>
+            <respStmt>
+               <resp>Encoding</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born-digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="genre">
+               <category xml:id="legal">
+                  <catDesc>Documentary text: legal</catDesc>
+               </category>
+               <category xml:id="other">
+                  <catDesc>Documentary text: other</catDesc>
+               </category>
+               <category xml:id="agriculture">
+                  <catDesc>Technical text: agriculture</catDesc>
+               </category>
+               <category xml:id="architecture">
+                  <catDesc>Technical text: architecture</catDesc>
+               </category>
+               <category xml:id="cosmography">
+                  <catDesc>Technical text: cosmography</catDesc>
+               </category>
+               <category xml:id="compilation">
+                  <catDesc>Technical text: erudit compilation</catDesc>
+               </category>
+               <category xml:id="lexicography">
+                  <catDesc>Technical text: lexicography</catDesc>
+               </category>
+               <category xml:id="medicine">
+                  <catDesc>Technical text: medicine</catDesc>
+               </category>
+               <category xml:id="rhetoric">
+                  <catDesc>Technical text: rhetoric</catDesc>
+               </category>
+               <category xml:id="poetry">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="christian">
+                  <catDesc>Christian theological text</catDesc>
+               </category>
+               <category xml:id="fiction">
+                  <catDesc>Novel</catDesc>
+               </category>
+               <category xml:id="oratory">
+                  <catDesc>Oratory</catDesc>
+               </category>
+               <category xml:id="comedy">
+                  <catDesc>Comedy</catDesc>
+               </category>
+               <category xml:id="letter">
+                  <catDesc>Letter writing</catDesc>
+               </category>
+               <category xml:id="philosophy">
+                  <catDesc>Philosophy</catDesc>
+               </category>
+               <category xml:id="history">
+                  <catDesc>Historical writing</catDesc>
+               </category>
+               <category xml:id="travel">
+                  <catDesc>Travel literature</catDesc>
+               </category>
+               <category xml:id="tragedy">
+                  <catDesc>Tragedy</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="textualFeature">
+               <category xml:id="prose">
+                  <catDesc>Prose</catDesc>
+               </category>
+               <category xml:id="verse">
+                  <catDesc>Verse</catDesc>
+               </category>
+               <category xml:id="translation">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="dialogue">
+                  <catDesc>Dialogued</catDesc>
+               </category>
+               <category xml:id="non-dialogue">
+                  <catDesc>Non-dialogued</catDesc>
+               </category>
+               <category xml:id="mixed-dial">
+                  <catDesc>Mixed (contains some dialogue)</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="transmission">
+               <category xml:id="codex">
+                  <catDesc>Codex</catDesc>
+               </category>
+               <category xml:id="scroll">
+                  <catDesc>Papyrus scroll</catDesc>
+               </category>
+               <category xml:id="mixed">
+                  <catDesc>Mixed</catDesc>
+               </category>
+               <category xml:id="inscription">
+                  <catDesc>Inscription</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listObject>
+            <object>
+               <objectIdentifier>
+                  <objectName>Senatus consultum de Bacchanalibus</objectName>
+               </objectIdentifier>
+               <bibl xml:id="senatus_consultum">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Bruttium</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0186">186 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index>
+               </bibl>
+            </object>
+         </listObject>
+         <listPerson>
+            <person xml:id="minucius">
+               <persName>Minucius Felix, Marcus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Africa</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="octavius">
+                  <title>Octavius</title>
+                  <date type="century" when-custom="2">2nd c.</date>
+                  <date type="period">Postclassical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#christian"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="ovid">
+               <persName>Ovid</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Samnium</region>
+                  </location>
+               </birth>
+               <bibl xml:id="metamorphoses">
+                  <title>Metamorphoses</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="petronius">
+               <persName>Petronius</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Gallia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="satyricon">
+                  <title>Satyricon</title>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="period">Postclassical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#fiction"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index>
+               </bibl>
+            </person>
+
+            <person xml:id="tertullian">
+               <persName>Tertullianus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Africa</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="de_spectaculis">
+                  <title>De spectaculis</title>
+                  <date type="century" when-custom="2">2nd c.</date>
+                  <date type="period">Postclassical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#christian"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index>
+               </bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

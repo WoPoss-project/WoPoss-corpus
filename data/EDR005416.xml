@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR005416">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR005416</title>
+            <title type="short">EDR005416</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="69"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR005416 , 2013-03-18 (LAURA CHIOFFI) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR005416"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1)-(6). </bibl>. </p>
+            <p>Editions: <bibl> CIL 01 (2 ed.), 0683 (1), cfr. p. 933 (2). ; EphEp, 08, 0473 (3). ;
+                  ILS 5734 (4). ; ILLRP 0720 (5). ; L. Chioffi, Museo Provinciale Campano di Capua:
+                  la Raccolta epigrafica, Capua 2005, p. 42, nr. 2, fig. 2 (6). </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <ab>
+               <s n="1">
+                  <lb n="1"/>
+                  <lb n="2"/><gap reason="lost" quantity="1" unit="character"/>
+                  <w pos="NOUN" lemma="Papius" msd="Case=Nom|Gender=Masc|Number=Sing"><supplied
+                        evidence="edition">Papius</supplied></w>
+                  <w pos="NOUN" lemma="Papiae" msd="Case=Gen|Gender=Fem|Number=Sing">Papiae</w>
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Stephanus" msd="Case=Nom|Gender=Masc|Number=Sing"><choice>
+                        <corr>Stephanus</corr>
+                        <sic>Stepanus</sic>
+                     </choice></w>
+                  <pc>,</pc>
+                  <lb n="3"/>
+                  <w pos="NOUN" lemma="---ius" msd="Case=Gen|Gender=Masc|Number=Sing"><gap
+                        quantity="3" unit="char"/><supplied>i</supplied>us</w>
+                  <w pos="X" lemma="Marci">M<ex>arci</ex></w>
+                  
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Diogen" msd="Case=Nom|Gender=Masc|Number=Sing">Diogenes</w>
+                  <pc>,</pc>
+                  <lb n="4"/>
+                  <gap reason="lost" quantity="1" unit="character"/>
+                  <w pos="NOUN" lemma="Titinius" msd="Case=Gen|Gender=Masc|Number=Sing"><supplied
+                        evidence="edition">Titiniu</supplied>s</w>
+                  <w pos="NOUN" lemma="Titinia" msd="Case=Gen|Gender=Fem|Number=Sing">Titiniae</w>
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Antio" msd="Case=Gen|Gender=Masc|Number=Sing"
+                        >Antioc<ex>us</ex></w>
+                  <pc>,</pc>
+                  <lb n="5"/>
+                  <w pos="NOUN" lemma="---ius" msd="Case=Gen|Gender=Masc|Number=Sing"><gap
+                        quantity="3" unit="char"/><supplied evidence="edition">i</supplied>us</w>
+                  <w pos="NOUN" lemma="luci" msd="Case=Gen|Gender=Masc|Number=Sing"
+                        >L<ex>uci</ex></w>
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Copio" msd="Case=Nom|Gender=Masc|Number=Sing">Copio</w>
+                  <pc>,</pc>
+                  <lb n="6"/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w pos="NOUN" lemma="luci" msd="Case=Gen|Gender=Masc|Number=Sing"
+                        >L<ex>uci</ex></w>
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  
+                  <w pos="NOUN" lemma="Nicolavus" msd="Case=Acc|Gender=Masc|Number=Plur"
+                     >Nicolavos</w>
+                  <pc>,</pc>
+                  <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>
+                  <w pos="NOUN" lemma="Auli" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >A<ex>uli</ex></w>
+                  
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Demetrius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >Demetr<supplied evidence="edition">ius</supplied></w>
+                  <pc>,</pc>
+                  <lb n="8"/>
+                  <lb n="9"/>
+                  <lb n="10"/>
+                  <w pos="NOUN" lemma="aulus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >A<ex>ulus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Vibb&lt;" msd="Case=Acc|Gender=Masc|Number=Sing">Vib<del
+                        rend="erasure">b</del>ius</w>
+                  <pc>:</pc>
+                  <w pos="NOUN" lemma="auli" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >A<ex>uli</ex></w>
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Diogen" msd="Case=Nom|Gender=Masc|Number=Sing">Diogenes</w>
+                  <pc>,</pc>
+                  <lb n="11"/>
+                  <w pos="NOUN" lemma="Quintus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >Q<ex>uintus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Decirius" msd="Case=Nom|Gender=Masc|Number=Sing">Decirius</w>
+                  <w pos="NOUN" lemma="Quintus" msd="Case=Abl|Gender=Masc|Number=Sing"
+                        >Q<ex>uinti</ex></w>
+                  
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Cleo" msd="Case=Gen|Gender=Masc|Number=Sing">Cleo</w>
+                  <pc>,</pc>
+                  <lb n="12"/>
+                  <w pos="ADJ" lemma="Publus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >P<ex>ublius</ex></w>
+                  
+                  
+                  <w pos="NOUN" lemma="fufius" msd="Case=Nom|Gender=Masc|Number=Sing">Fufius</w>
+                  <w pos="X" lemma="Publis">P<ex>ubli</ex></w>
+                  
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  <w pos="NOUN" lemma="Chaeremo" msd="Case=Acc|Gender=Masc|Number=Sing">Chaeremo</w>
+                  <pc>,</pc>
+                  <lb n="13"/>
+                  <w pos="NOUN" lemma="Caius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >C<ex>aius</ex></w>
+                  
+                  <w pos="NOUN" lemma="Artorius" msd="Case=Nom|Gender=Masc|Number=Sing">Artorius</w>
+                  <w pos="NOUN" lemma="Artoria" msd="Case=Gen|Gender=Fem|Number=Sing"
+                        >Artor<ex>iae</ex></w>
+                  
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  <w pos="ADJ" lemma="Diphilus" msd="Case=Acc|Gender=Masc|Number=Sing"><choice>
+                        <corr>Diphilus</corr>
+                        <sic>Dipilus</sic>
+                     </choice></w>
+                  <pc>,</pc>
+                  <lb n="14"/>
+                  <w pos="NOUN" lemma="Marcus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >M<ex>arcus</ex></w>
+                  
+                  <w pos="ADJ" lemma="Alfidius" msd="Case=Acc|Gender=Masc|Number=Sing">Alfidius</w>
+                  <w pos="X" lemma="Marci">M<ex>arci</ex></w>
+                  
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  
+                  <w pos="NOUN" lemma="sota" msd="Case=Nom|Gender=Masc|Number=Sing">Sota</w>
+                  <pc>,</pc>
+                  <lb n="15"/>
+                  <w pos="ADJ" lemma="Publus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >P<ex>ublius</ex></w>
+                  
+                  <w pos="NOUN" lemma="statius" msd="Case=Nom|Gender=Masc|Number=Sing">Statius</w>
+                  <w pos="ADJ" lemma="Publus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >P<ex>ubli</ex></w>
+                  
+                  <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >l<ex>ibertus</ex></w>
+                  
+                  
+                  <w pos="NOUN" lemma="Philemus" msd="Case=Acc|Gender=Masc|Number=Sing">Philemo</w>
+                  <pc>.</pc>
+                  <lb n="16"/>
+                  <lb n="17"/>
+               </s>
+            </ab>
+         </div>
+         <div>
+            <ab><s>
+                  <lb n="1"/>
+                  <lb n="2"/>
+  <choice>              <sic>  <supplied evidence="edition"><w pos="NOUN" lemma="Heisce"
+                        msd="Case=Nom|Gender=Masc|Number=Sing">Heisce</w></supplied></sic>
+                <corr>  <w pos="VERB" lemma="hisco"
+                     msd="Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act"
+                        >hisce</w></corr></choice>
+                  <w pos="ADJ" lemma="magistri" msd="Case=Gen|Gender=Masc|Number=Sing"><choice>
+                        <corr>magistri</corr>
+                        <sic>mag<ex>istreis</ex></sic>
+                     </choice></w>
+                  <w pos="NOUN" lemma="lacus" msd="Case=Acc|Gender=Masc|Number=Sing">lacum</w>
+                  <w pos="VERB" lemma="Iovi"
+                     msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"><choice>
+                        <corr>Iovi</corr>
+                        <sic>Iovei</sic>
+                     </choice>|corr</w>
+                  <w pos="ADP" lemma="de">de</w>
+                  <w pos="NOUN" lemma="stipis" msd="Case=Abl|Gender=Fem|Number=Sing">stipe</w>
+                  <w pos="CCONJ" lemma="et">et</w>
+                  <w pos="ADP" lemma="de">de</w>
+                  <w pos="PRON" lemma="suus" msd="Case=Abl|Gender=Fem|Number=Sing">sua</w>
+                  <w pos="NOUN" lemma="&lt;:pecunia" msd="Case=Abl|Gender=Fem|Number=Sing"><choice>
+                        <corr>pecunia</corr>
+                        <sic>pequn<ex>ia</ex></sic>
+                     </choice></w>
+                  <lb n="3"/>
+                  <w pos="VERB" lemma="facio"
+                     msd="Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Gdv"> <supplied
+                        evidence="edition">faciu</supplied><seg function="marker" ana="#EDR129101"
+                           >nd<ex>um</ex></seg>
+                  </w>
+                  
+                  <w pos="VERB" lemma="curavere"
+                     msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"><choice>
+                        <corr>curaver<ex>e</ex></corr>
+                        <sic>coeravere</sic>
+                     </choice></w>
+                  <w pos="NOUN" lemma="Cnaeo" msd="Case=Dat|Gender=Masc|Number=Sing"
+                        >Cn<ex>aeo</ex></w>
+                  
+                  <w pos="NOUN" lemma=":Papirius" msd="Case=Abl|Gender=Neut|Number=Sing"><choice>
+                        <corr>Papirio</corr>
+                        <sic>Papeirio</sic>
+                     </choice></w>
+                  <w pos="VERB" lemma="Carbo"
+                     msd="Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act"
+                        >Carb<ex>one</ex></w>
+                  
+                  <w pos="NOUN" lemma="iter" msd="Case=Acc|Gender=Neut|Number=Sing"
+                        >iter<ex>um</ex></w>
+                  <w pos="VERB" lemma="conso"
+                     msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >co<ex>n</ex>s<ex>ule</ex></w>
+                  <pc>.</pc>
+               </s>
+            </ab>
+         </div>
+      </body>
+      <back>
+         <fs xml:id="EDR129101" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

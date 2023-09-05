@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR183511">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR183511</title>
+            <title type="short">EDR183511</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="71"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR183511 , 2022-03-30 (Pauline JACSONT)<ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR183511"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (6), contulit ad imaginem
+                  Jacsont a. 2022.. v. 12: fortasse [quodve actum apud quem] pr(aetorem) h(ac)
+                  l(ege) (6). Aliam inscriptionem eiusdem monumenti invenies ad EDR183504. </bibl>. </p>
+            <p>Editions: <bibl> CIL 11, 02090 (1) ; CIL 01 (2 ed.), 0595 (2), cfr. p. 917 (3) ; A.C.
+                  Johnson, P.R. Coleman-Norton, F.C. Bourne, Ancient Roman Statutes, Austin 1961, p.
+                  76, nr. 80 (4) ; Hermes, 107, 1979, pp. 478-488 (H. B. Mattingly) (5) ; M.H.
+                  Crawford, Roman Statutes, I, London 1996, pp. 185-187, nr. 5, con foto (6) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <gap reason="lost" extent="unknown" unit="line"/><lb n="1"/><gap reason="lost"
+                  extent="unknown" unit="character"/>
+               <w pos="NOUN" lemma="pronontiato" msd="Case=Abl|Gender=Masc|Number=Sing"><choice>
+                     <sic><supplied evidence="edition">p</supplied>ronontiato</sic>
+                     <corr>pronuntiato</corr>
+                  </choice></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="2"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="PRON" lemma="qui" msd="Case=Nom|Gender=Neut|Number=Plur">quae</w>
+               <w pos="ADV" lemma="supra">supra</w>
+               <w pos="VERB" lemma="scribo"
+                  msd="Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+                  >scripta</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">sunt</w>
+               <w pos="ADV" lemma="antequam">an<supplied evidence="edition">tequam</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="PRON" lemma="is" msd="Case=Gen|Gender=Masc|Number=Plur">eorum</w>
+               <w pos="ADV" lemma="quosve">quosve</w>
+               <w pos="PRON" lemma="is" msd="Case=Nom|Gender=Masc|Number=Sing">is</w>
+               <w pos="NOUN" lemma="ṃagistratus" msd="Case=Nom|Gender=Masc|Number=Sing">ṃ<supplied
+                     evidence="edition">agistratus</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="4"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <choice>
+                  <corr><w pos="NOUN" lemma="p&lt;:pecuniam" msd="Case=Acc|Gender=Fem|Number=Sing"
+                        >pecuniam</w></corr>
+                  <sic>
+                     <w pos="ADV" lemma="|corr|equniam"><supplied evidence="edition"
+                        >p</supplied>equniam</w></sic>
+               </choice>
+               <w pos="VERB" lemma="capio"
+                  msd="Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >ceperit</w>
+               <w pos="VERB" lemma="cap̣iet"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act">cap̣<supplied
+                     evidence="edition">iet</supplied></w>
+               <lb n="5"/><supplied evidence="edition">
+                  <choice>
+                     <corr><w pos="NOUN" lemma="quei" msd="Case=Nom|Gender=Masc|Number=Sing"
+                           >quei</w></corr>
+
+                     <sic>
+                        <w pos="SCONJ" lemma="qui">qui</w></sic>
+                  </choice>
+                  <choice>
+                     <corr><w pos="NOUN" lemma="pequnia" msd="Case=Acc|Gender=Fem|Number=Sing"
+                           >pequniam</w></corr>
+                     <sic>
+                        <w pos="NOUN" lemma=":pecunia" msd="Case=Acc|Gender=Fem|Number=Sing"
+                           >pecuniam</w></sic>
+                  </choice>
+               </supplied>
+               <w pos="VERB" lemma="capio"
+                  msd="Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >ceperit</w>
+               <w pos="PRON" lemma="quive" msd="Case=Dat|Gender=Masc|Number=Sing">quoive</w>
+               <w pos="PRON" lemma="is" msd="Case=Gen|Gender=Masc|Number=Sing">eius</w>
+               <w pos="PRON" lemma="quis" msd="Case=Nom|Gender=Masc|Number=Sing">qụ<supplied
+                     evidence="edition">id</supplied></w>
+               <supplied evidence="edition">
+                  <w pos="VERB" lemma="pervenio"
+                     msd="Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     >pervenerit</w></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/><lb n="6"/>
+               <w pos="NOUN" lemma="?a" msd="Case=Nom|Gender=Masc|Number=Sing"><gap reason="lost"
+                     extent="unknown" unit="character"/>a</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act">erit</w>
+               <choice>
+                  <corr><w pos="NOUN" lemma="&lt;:litteraeve" msd="Case=Dat|Gender=Fem|Number=Sing"
+                        >litteraeve</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|literaive"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >literaive</w></sic>
+               </choice>
+               <w pos="NOUN" lemma="testium" msd="Case=Gen|Gender=Masc|Number=Plur">testium</w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="7"/>
+               <supplied evidence="edition">
+                  <w pos="VERB" lemma=":nisi|corr|nisei"
+                     msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act"><choice>
+                        <corr>nisi</corr>
+                        <sic>nisei</sic>
+                     </choice></w>
+                  <w pos="PRON" lemma="qui" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >qui</w></supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="VERB" lemma="exemptus"
+                  msd="Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                     ><supplied evidence="edition">e</supplied>xemptus</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act">erit</w>
+               <w pos="PRON" lemma="qui|corr|quei" msd="Case=Nom|Gender=Masc|Number=Sing"><choice>
+                     <corr>qui</corr>
+                     <sic>quei</sic>
+                  </choice></w>
+               <w pos="ADP" lemma="ab">ab</w>
+               <w pos="PRON" lemma="is" msd="Case=Abl|Gender=Masc|Number=Sing">eo</w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="8"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="VERB" lemma="damnạs" msd="Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv"
+                     ><supplied evidence="edition">damn</supplied>ạs</w>
+               <w pos="VERB" lemma="eo"
+                  msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">esto</w>
+               <w pos="PRON" lemma="ide" msd="Case=Gen|Gender=Masc|Number=Sing">eiusque</w><choice>
+                  <corr>
+                     <w pos="NOUN" lemma="pequnia" msd="Case=Gen|Gender=Fem|Number=Sing"
+                           >pequnia<supplied evidence="edition">e</supplied></w>
+                  </corr>
+                  <sic>
+                     <w pos="NOUN" lemma="pecunia" msd="Case=Gen|Gender=Fem|Number=Sing"
+                        >pecuniae</w></sic>
+               </choice>
+               <gap reason="lost" extent="unknown" unit="character"/><lb n="9"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="PRON" lemma="qui" msd="Case=Acc|Gender=Fem|Number=Sing">
+                  <seg function="participant" type="inanimate_patient" corresp="#EDR5410245"
+                     >quam</seg>
+               </w>
+               <w pos="ADP" lemma="ex">ex</w>
+               <w pos="NOUN" lemma="hic" msd="Case=Abl|Gender=Fem|Number=Sing">h<ex>ac</ex></w>
+               <w pos="VERB" lemma="lex"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     >l<ex>ege</ex></w>
+               <w pos="PRON" lemma="sui" msd="Case=Dat|Gender=Masc|Number=Sing"><choice>
+                     <corr>sibi</corr>
+                     <sic>sibei</sic>
+                  </choice></w> 
+               <w pos="VERB" lemma="dicat|corr|t"
+                  msd="Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass"><choice>
+                     <corr>dicat</corr>
+                     <sic>deica<supplied evidence="edition">t</supplied></sic>
+                  </choice></w>
+               <seg function="scope" ana="#EDR5410245">
+                  <w pos="VERB" lemma="do" msd="Tense=Pres|VerbForm=Inf|Voice=Pass" function="main"><choice>
+                        <corr>dari</corr>
+                        <sic>darei</sic>
+                     </choice></w>
+               </seg>
+               <w pos="VERB" lemma="oportet" msd="Tense=Pres|VerbForm=Inf|Voice=Act">
+                  <seg function="marker" ana="#EDR5410227">oportere</seg>
+               </w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="10"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="VERB" lemma="facio"
+                  msd="Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">facito</w>
+               <w pos="ADV" lemma="&lt;:uti|corr|utei"><choice>
+                     <corr>uti</corr>
+                     <sic>utei</sic>
+                  </choice></w>
+               <w pos="PRON" lemma="is" msd="Case=Nom|Gender=Masc|Number=Sing">is</w>
+               <w pos="PRON" lemma="is" msd="Case=Acc|Gender=Fem|Number=Sing">eam</w>
+               <choice>
+                  <corr><w pos="NOUN" lemma="pecunia" msd="Case=Acc|Gender=Fem|Number=Sing"
+                        >pecuniam</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|niam"
+                        msd="Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act"
+                           >pequ<supplied evidence="edition">niam</supplied></w></sic>
+               </choice>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="11"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="VERB" lemma="uti|corr|ei"
+                  msd="Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act"><choice>
+                     <corr>uti</corr>
+                     <sic><supplied evidence="edition">ut</supplied>ei</sic>
+                  </choice></w>
+               <w pos="ADP" lemma="ex">ex</w>
+               <w pos="ADJ" lemma="hic" msd="Case=Abl|Gender=Fem|Number=Sing">h<ex>ac</ex></w>
+               <w pos="NOUN" lemma="lex" msd="Case=Abl|Gender=Fem|Number=Sing">l<ex>ege</ex></w>
+               <w pos="VERB" lemma="oportet"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act">
+                  <seg function="marker" ana="#EDR5410319">oportebit</seg>
+               </w>
+               <supplied>
+                  <seg function="scope" ana="#EDR5410337">
+                     <w>facere</w>
+                  </seg>
+               </supplied>
+               <pc>,</pc>
+               <w pos="SCONJ" lemma="quod">quod</w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="12"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="NOUN" lemma="pr" msd="Case=Nom|Gender=Masc|Number=Sing">pr</w>
+               <w pos="NOUN" lemma="hac" msd="Case=Nom|Gender=Masc|Number=Sing">h<ex>ac</ex></w>
+               <w pos="NOUN" lemma="lege" msd="Case=Nom|Gender=Masc|Number=Sing">l<ex>ege</ex></w>
+               <choice>
+                  <corr>
+                     <w pos="VERB" lemma="&lt;:agetur"
+                        msd="Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass"
+                        >agetur</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|acetur"
+                        msd="Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass"
+                        >acetur</w></sic>
+               </choice>
+               <w pos="ADV" lemma="non">non</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">sit</w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="13"/><supplied evidence="edition">
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <w pos="PRON" lemma="is" msd="Case=Nom|Gender=Masc|Number=Sing">is</w>
+                  <w pos="PRON" lemma="qui" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >qui</w></supplied>
+               <w pos="VERB" lemma="peto" msd="Tense=Pres|VerbForm=Inf|Voice=Pass"><supplied
+                     evidence="edition">peti</supplied>t</w>
+               <w pos="PRON" lemma="is" msd="Case=Acc|Gender=Masc|Number=Sing">eum</w>
+               <w pos="ADV" lemma="unde">unde</w>
+               <w pos="VERB" lemma="peto"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass">petetur</w>
+               <w pos="NOUN" lemma="e" msd="Case=Nom|Gender=Masc|Number=Sing">e<gap reason="lost"
+                     extent="unknown" unit="character"/></w>
+               <lb n="14"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="VERB" lemma="pastiveo"
+                  msd="Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     ><supplied evidence="edition">p</supplied>etiverit</w>
+               <w pos="NOUN" lemma="condemnetur" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >condemnetu<supplied evidence="edition">r</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb n="15"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <w pos="NOUN" lemma="in" msd="Case=Acc|Gender=Neut|Number=Sing"><supplied
+                     evidence="edition">i</supplied>n</w>
+               <w pos="ADJ" lemma="judicius" msd="Case=Acc|Gender=Neut|Number=Sing"
+                     >iudiciụ<supplied evidence="edition">m</supplied></w>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="line"/>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR5410245" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="control">
+               <binary value="true"/>
+            </f>
+            <f name="dynamicity">
+               <binary value="true"/>
+            </f>
+            <f name="participant">
+               <symbol value="explicit"/>
+            </f>
+            <f name="participantType">
+               <symbol value="inanimate_patient"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR5410227" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="pertinence">
+               <symbol value="fragmentary"/>
+            </f>
+            <f name="lemma">
+               <symbol value="oportet"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR5410337" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="control">
+               <binary value="true"/>
+            </f>
+            <f name="dynamicity">
+               <binary value="true"/>
+            </f>
+            <f name="participant">
+               <symbol value="implicit"/>
+            </f>
+            <f name="participantType">
+               <symbol value="animate"/>
+            </f>
+            <f name="note">
+               <string>contents of the implicit scope are uncertain</string>
+            </f>
+         </fs>
+         <fs xml:id="EDR5410319" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="pertinence">
+               <symbol value="fragmentary"/>
+            </f>
+            <f name="lemma">
+               <symbol value="oportet"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR5410263" type="relation">
+            <f name="modality">
+               <symbol value="deontic"/>
+            </f>
+            <f name="marker" fVal="EDR5410227"/>
+            <f name="scope" fVal="EDR5410245"/>
+            <f name="type">
+               <symbol value="authority"/>
+            </f>
+            <f name="subtype">
+               <symbol value="obligation"/>
+            </f>
+            <f name="context">
+               <symbol value="official"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR5410355" type="relation">
+            <f name="modality">
+               <symbol value="deontic"/>
+            </f>
+            <f name="marker" fVal="EDR5410319"/>
+            <f name="scope" fVal="EDR5410337"/>
+            <f name="type">
+               <symbol value="authority"/>
+            </f>
+            <f name="subtype">
+               <symbol value="obligation"/>
+            </f>
+            <f name="context">
+               <symbol value="official"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

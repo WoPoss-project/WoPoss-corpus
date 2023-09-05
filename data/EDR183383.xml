@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR183383">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR183383</title>
+            <title type="short">EDR183383</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="16"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR183383 , 2022-05-04 (Pauline JACSONT) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR183383"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1)-(6), contulit ad imaginem
+                  et apographum Jacsont a. 2022</bibl>. </p>
+            <p>Editions: <bibl> CIL 10, 04719 (1), cfr. p. 1012 (2) ; CIL 01 (2 ed.), 0400 (3), cfr.
+                  p. 882 (4) ; ILS 5943b (5) ; ILLRP 0483 (6) ; E.H. Warmington, Remains of Old
+                  Latin, IV, Archaic Inscriptions, London-Cambridge Mass. 1940, p. 156, nr. 19 (7) ;
+                  E. Diehl, Altlateinische Inschriften, Berlin 1964 (5 ed.), nr. 454 (8) ; J.N.
+                  Adams Bilingualism and tle Latin Language, Cambridge 2003, p. 136 (9) ; M.H.
+                  Crawford, Imagines Italicae: A Corpus of Italic Inscriptions, London 2011, vol. 1,
+                  p. 529, con foto e traduzione in inglese (10) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Retus" msd="Case=Nom|Gender=Masc|Number=Sing"> R<ex>etus</ex> </w>
+               
+               <w pos="NOUN" lemma="Vẹdo" msd="Case=Nom|Gender=Masc|Number=Sing">Vẹdo<gap reason="lost" extent="unknown" unit="character"/></w>
+               <pc>,</pc>
+               <lb n="2"/>
+               <w pos="NOUN" lemma="Vibius" msd="Case=Nom|Gender=Masc|Number=Sing">V<ex>ibius</ex></w>
+               
+               <w pos="NOUN" lemma="Autroḍius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >Autroḍiu<ex>s</ex></w>
+               
+               <w pos="NOUN" lemma="Cai" msd="Case=Gen|Gender=Masc|Number=Sing">C<ex>ai</ex></w>
+               <w pos="NOUN" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing">filius</w>
+               <pc>,</pc>
+               <lb n="3"/>
+               <w pos="NOUN" lemma="Spurius" msd="Case=Nom|Gender=Masc|Number=Sing">S<ex>purius</ex></w>
+               
+               <w pos="ADJ" lemma="Racectius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >Racectiu<ex>s</ex></w>
+               
+               <w pos="NOUN" lemma="spuri" msd="Case=Gen|Gender=Masc|Number=Sing">S<ex>puri</ex></w>
+               <w pos="NOUN" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing">filius</w>
+               <pc>,</pc>
+               <lb n="4"/>
+               <w pos="NOUN" lemma="Spurius" msd="Case=Nom|Gender=Masc|Number=Sing">S<ex>purius</ex></w>
+               
+               <w pos="NOUN" lemma="Teditius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >Teditiu<ex>s</ex></w>
+               
+               <w pos="NOUN" lemma="spuri" msd="Case=Gen|Gender=Masc|Number=Sing">S<ex>puri</ex></w>
+               <w pos="NOUN" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing">filius</w>
+               <lb n="5"/>
+               <w pos="VERB" lemma="statuo" msd="Case=Acc|Gender=Masc|Number=Plur|VerbForm=Gdv">
+                  statue <seg function="marker" ana="#EDR461677">ndos</seg>
+               </w>
+               <lb n="6"/>
+               <w pos="VERB" lemma="loco"
+                  msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >locaverunt</w>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR461677" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

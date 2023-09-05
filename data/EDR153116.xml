@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR153116">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR153116</title>
+            <title type="short">EDR153116</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="18"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR153116 , 2015-10-11 (Umberto SOLDOVIERI) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR153116"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1), contulit U. Soldovieri a.
+                  2015</bibl>. </p>
+            <p>Editions: <bibl> CIL 10, 00937 (1), cfr. p. 967 (2), p. 968 (3) ; CIL 01 (2 ed.),
+                  1629 (4), cfr. p. 1013 (5) ; ILS 5335 (6) ; ILLRP 0642 (7) ; Rend. Ac. Arch. Nap.,
+                  26, 1951, p. 151 sgg. (G.O. Onorato) (8) ; Riv. Stor. Ant. (Bol.), 6-7, 1976-1977,
+                  p. 125 (G.A. Mansuelli) (9) ; P. Castrén, Ordo populusque Pompeianus, 2 ed. (Act.
+                  Inst. Rom. Finl. 8), Roma 1983, p. 161 nr. 146.2, 184 nr. 223.1 cfr. p. 50, 88
+                  (10) ; Hermes, 111, 1983, p. 478 sg. (H.-J. Gehrke) (11) ; H. Mouritsen,
+                  Elections, Magistrates and municipal élite. Studies in Pompeian epigraphy (Anal.
+                  Rom. Inst. Dan., Suppl. 15), Roma 1988, p. 71 sg. 78, 81 (12) ; Op. Pomp., 4,
+                  1994, p. 7 sg. (I. Twai) (13) ; Les élites municipales de l'Italie péninsulaire
+                  des Gracques à Néron, Napoli-Roma 1996, p. 129 (F. Zevi) cfr. p. 116 nt. 19 (E. Lo
+                  Cascio) (14) ; E. Bispham, From Asculum to Actium. The Municipalization of Italy
+                  from the Social War to Augustus, Oxford 2007, p. 262 sgg., 447 sgg. (15) ;
+                  Vesuviana, 4, 2012, p. 21 (V. Gasparini - J. Uroz Sáez) (16) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <gap/>
+               <supplied evidence="edition">
+                  <w pos="NOUN" lemma="Cuspius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >Cuspius</w></supplied>
+               <w pos="NOUN" lemma="titi" msd="Case=Abl|Gender=Masc|Number=Sing">T<ex>iti</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               <pc>,</pc>
+               <w pos="NOUN" lemma="Marcus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >M<ex>arcus</ex></w>
+               <w pos="NOUN" lemma="Lorejus" msd="Case=Gen|Gender=Masc|Number=Sing">Loreiu<supplied
+                     evidence="edition">s</supplied></w>
+               <w pos="NOUN" lemma="Marci" msd="Case=Abl|Gender=Fem|Number=Sing">M<ex>arci</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               <pc>,</pc>
+               <lb n="2"/>
+               <w pos="VERB" lemma="duovireo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     >duoviṛ<ex>i</ex></w>
+               <pc>,</pc>
+               <w pos="NOUN" lemma="de" msd="Case=Acc|Gender=Neut|Number=Sing"><supplied
+                     evidence="edition">d<ex>e</ex></supplied></w>
+               <w pos="NOUN" lemma="decurionum" msd="Case=Gen|Gender=Masc|Number=Plur"
+                     >d<ex>ecurionum</ex></w>
+               <w pos="VERB" lemma="sentintio"
+                  msd="Case=Abl|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part"
+                  >s<ex>ententia</ex></w>
+               <w pos="NOUN" lemma="mụrum" msd="Case=Acc|Gender=Masc|Number=Sing">mụrum</w>
+               <w pos="NOUN" lemma="et" msd="Case=Acc|Gender=Masc|Number=Sing"><supplied
+                     evidence="edition">e</supplied>t</w>
+               <lb n="3"/>
+               <w pos="ADJ" lemma="plumus" msd="Case=Acc|Gender=Masc|Number=Sing"
+                     >pluma<unclear>m</unclear></w>
+               <choice>
+                  <corr><w pos="VERB" lemma="facio"
+                        msd="Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv"> facie <seg
+                           function="marker" ana="#EDR372202">nda</seg>
+                     </w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="facio" msd="Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv"
+                        >faciunda</w></sic>
+               </choice>
+               <choice>
+                  <corr><w pos="VERB" lemma="&lt;:curaverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >curaverunt</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|coeraverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >coeraverunt</w></sic>
+               </choice>
+               <choice>
+                  <corr><w pos="PRON" lemma="idemque" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >idemque</w></corr>
+                  <sic><w pos="NOUN" lemma="eidem" msd="Case=Acc|Gender=Fem|Number=Sing"
+                           >eide<unclear>m</unclear>que</w></sic>
+               </choice>
+               <w pos="VERB" lemma="probo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     >pro<ex>baverunt</ex></w>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR372202" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

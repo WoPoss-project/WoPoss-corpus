@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR150879">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR147563</title>
+            <title type="short">EDR147563</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="42"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR150879 , 2016-03-23 (Umberto SOLDOVIERI)<ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR150879"
+                  />
+               </bibl>. Based on the edition: <bibl/>. </p>
+            <p>Editions: <bibl> CIL 10, 00829 (1), cfr. p. 967 (2), p. 968 (3) ; CIL 01, 2 ed., 1635
+                  (4), cfr. p. 1014 (5) ; ILS 5706 (6) ; ILLRP 0648 (7) ; Mitt. Deutsch. Arch. Inst.
+                  (Roemisch.), 35, 1920, p. 152 sgg. (R. Hartmann) (8) ; G.O. Onorato, Iscrizioni
+                  Pompeiane. La vita pubblica, Firenze 1957, p. 46 sg. nr. 46 cfr. p. 133 con foto e
+                  traduzione italiana (9) ; W. Krenkel, Pompejanische Inschriften, Leipzig 1961, p.
+                  30 con traduzione tedesca (10) ; Mitt. Deutsch. Arch. Inst. (Roemisch.), 80, 1973,
+                  p. 235 sgg. con foto (H. Eschebach) (11) ; J. Ward-Perkins, A. Claridge, Pompeii,
+                  A.D. 79: treasures from the National Archaeological Museum, Naples, with
+                  contributions from the Pompeii Antiquarium and the Museum of Fine Arts, Boston,
+                  II, Boston 1978, p. 192 nr. 219 con foto e traduzione inglese (12) ; H. Eschebach,
+                  Die Stabianer Thermen in Pompeji, Berlin 1979, p. 24 sg. cfr. p. 4, 40, 45, 50, 58
+                  sgg. con fac-simile (13) ; P. Castrén, Ordo populusque Pompeianus, 2 ed. (Act.
+                  Inst. Rom. Finl. 8), Roma 1983, p. 134 nr. 29.2, 233 nr. 427.1 cfr. p. 60, 87 sg.
+                  (14) ; Römische Gräberstraßen: Selbstdarstellung - Status - Standard, München
+                  1987, p. 185 (V. Kockel) (15) ; L. Richardson, Pompeii: an architectural history,
+                  Baltimore 1988, p. 102 sgg. (16) ; H. Mouritsen, Elections, Magistrates and
+                  municipal élite. Studies in Pompeian epigraphy (Anal. Rom. Inst. Dan., Suppl. 15),
+                  Roma 1988, p. 78, 81 con foto (17) ; Pap. Brit. Sch. Rome, 60, 1992, p. 152 (E.
+                  Thomas - C. Witschel) (18) ; Les élites municipales de l'Italie péninsulaire des
+                  Gracques à Néron, Napoli-Roma 1996, p. 129 sg. (F. Zevi) (19) ; A. Trisciuoglio,
+                  Sarta tecta, ultrotributa, opus publicum faciendum locare: sugli appalti relativi
+                  alle opere pubbliche nell'età repubblicana e augustea, Napoli 1998, p. 127 sg.
+                  (20) ; M. Cébeillac-Gervasoni, Les magistrats des cités italiennes de la seconde
+                  Guerre Punique à Auguste: le Latium et la Campanie, Roma 1998, p. 111, 115, 121
+                  sg. (21) ; Rend. Pont. Ac. Arch., 71, 1998-1999, p. 16 sgg. con foto (G. Sauron)
+                  (22) ; G.G. Fagan, Bathing in public in the roman world, Ann Arbor 1999, p. 250
+                  nr. 61 con traduzione inglese (23) ; The epigraphic landscape of Roman Italy
+                  (Bull. Inst. Class. Stud. London, Suppl. 73), London 2000, p. 80 sgg. con
+                  traduzione inglese (M. Pobjoy) (24) ; C. Kunst, Römische Wohn- und Lebenswelten.
+                  Quellen zur Geschichte der römischen Stadt, Darmsatdt 2000, p. 129 sg. nr. 38b con
+                  traduzione tedesca (25) ; M. Pagano, R. Prisciandaro, Studio sulle provenienze
+                  degli oggetti rinvenuti negli scavi borbonici del Regno di Napoli, I,
+                  Castellammare di Stabia 2006, p. 174 (26) ; E. Bispham, From Asculum to Actium.
+                  The Municipalization of Italy from the Social War to Augustus, Oxford 2007, p. 219
+                  sg. (27) ; Zeitschr. Sav. Stift. Recht., Rom., 126, 2009, p. 375 sg. (W. Bochwitz)
+                  (28) ; A. Hüttemann, Pompejanische Inschriften, Stuttgart 2010, p. 75 sg. nr. 30
+                  con foto e traduzione tedesca (29) ; Sport und Recht in der Antike, Wien 2014, p.
+                  182 sgg. (L. Cappelletti) (30) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Caius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >C<ex>aius</ex></w>
+               
+               <w pos="NOUN" lemma="Julius" msd="Case=Nom|Gender=Masc|Number=Sing">Uulius</w>
+               <w pos="NOUN" lemma="Cai" msd="Case=Gen|Gender=Masc|Number=Sing"
+                  >C<ex>ai</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >f<ex>ilius</ex></w>
+               <pc>,</pc>
+               <w pos="ADJ" lemma="Publus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >P<ex>ublius</ex></w>
+               
+               <w pos="NOUN" lemma="Aninius" msd="Case=Acc|Gender=Masc|Number=Sing">Aninius</w>
+               <w pos="NOUN" lemma="Cai" msd="Case=Gen|Gender=Fem|Number=Sing"
+                  >C<ex>ai</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Gen|Gender=Masc|Number=Sing"
+                     >f<ex>ilius</ex></w>
+               <pc>,</pc>
+               <choice>
+                  <corr><w pos="NOUN" lemma="&lt;:duoviri" msd="Case=Gen|Gender=Masc|Number=Sing"
+                        >duoviri</w>
+                  </corr>
+                  <sic>
+                     <w pos="VERB" lemma="|IIviri"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >IIviri</w></sic>
+               </choice>
+               <w pos="VERB" lemma="inco"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+                     >i<ex>ure</ex></w>
+               
+               <w pos="VERB" lemma="dico" msd="Case=Abl|Gender=Neut|Number=Sing|VerbForm=Gdv">
+                     d<ex>icu <seg function="marker" ana="#EDR364586">ndo</seg></ex>  </w>
+               <pc>,</pc>
+               <lb n="2"/>
+               <w pos="NOUN" lemma="laconia" msd="Case=Acc|Gender=Neut|Number=Sing">laconicum</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="ADJ" lemma="destrictarius" msd="Case=Acc|Gender=Neut|Number=Sing"
+                  >destrictarium</w>
+               <lb n="3"/>
+               <choice>
+                  <corr>
+                     <w pos="VERB" lemma="facio" msd="Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv"
+                        > facie <seg function="marker" ana="#EDR364604">nda</seg>
+                     </w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="facio" msd="Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv"
+                        >faciunda</w></sic>
+               </choice>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="NOUN" lemma="porticus" msd="Case=Nom|Gender=Neut|Number=Plur">porticus</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="ADJ" lemma="palaest̂ram" msd="Case=Abl|Degree=Sup|Gender=Fem|Number=Sing"
+                     >palaest̂r<ex>am</ex></w>
+               <lb n="4"/>
+               <choice>
+                  <corr><w pos="VERB" lemma="reficio"
+                        msd="Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv"> reficie <seg
+                           function="marker" ana="#EDR364622">nda</seg>
+                     </w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="reficio"
+                        msd="Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv">reficiunda</w></sic>
+               </choice>
+               <choice>
+                  <corr>
+                     <w pos="VERB" lemma="&lt;:locaverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >locaverunt</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|locarunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >locarunt</w></sic>
+               </choice>
+               <pc>,</pc>
+               <w pos="ADP" lemma="ex">ex</w>
+               <w pos="NOUN" lemma="decreto" msd="Case=Abl|Gender=Masc|Number=Sing"
+                     >d<ex>ecreto</ex></w>
+               
+               <w pos="NOUN" lemma="decurio" msd="Case=Gen|Gender=Masc|Number=Plur"
+                     >d<ex>ecurionum</ex></w>
+               <pc>,</pc>
+               <w pos="ADP" lemma="ex">ex</w>
+               <lb n="5"/>
+               <w pos="PRON" lemma="is" msd="Case=Abl|Gender=Fem|Number=Sing">ea</w>
+               <choice>
+                  <corr>
+                     <w pos="NOUN" lemma="&lt;:pecunia" msd="Case=Nom|Gender=Fem|Number=Sing"
+                        >pecunia</w></corr>
+                  <sic>
+                     <w pos="ADJ" lemma="|corr|pequnia" msd="Case=Abl|Gender=Fem|Number=Sing"
+                        >pequnia</w></sic>
+               </choice>
+               <w pos="SCONJ" lemma="quod">quod</w>
+               <w pos="PRON" lemma="is" msd="Case=Acc|Gender=Masc|Number=Plur">
+                  <seg function="participant" type="animate" corresp="#EDR364665">eos</seg>
+               </w>
+               <w pos="ADP" lemma="ex">e</w>
+               <w pos="NOUN" lemma="lex" msd="Case=Abl|Gender=Fem|Number=Sing">lege</w>
+               <lb n="6"/>
+               <seg function="scope" ana="#EDR364665">
+                  <w pos="ADP" lemma="in">in</w>
+                  <w pos="NOUN" lemma="ludus" msd="Case=Acc|Gender=Masc|Number=Plur">ludos</w>
+                  <w pos="CCONJ" lemma="aut">aut</w>
+                  <w pos="ADP" lemma="in">in</w>
+                  <w pos="NOUN" lemma="monumentum" msd="Case=Abl|Gender=Neut|Number=Sing"
+                     >monumento</w>
+                  <lb n="7"/>
+                  <w pos="VERB" lemma="consumo" msd="Tense=Pres|VerbForm=Inf|Voice=Act"
+                     function="main">consumere</w>
+               </seg>
+               <w pos="VERB" lemma="oportet"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act">
+                  <seg function="marker" ana="#EDR364640">oportuit</seg>
+               </w>
+               <pc>,</pc>
+               <choice>
+                  <corr>
+                     <w pos="VERB" lemma="facio" msd="Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv"
+                        > facie <seg function="marker" ana="#EDR364709">nda</seg>
+                     </w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="facio" msd="Case=Acc|Gender=Neut|Number=Plur|VerbForm=Gdv"
+                        >faciunda</w></sic>
+               </choice>
+               <lb n="8"/>
+               <choice>
+                  <corr><w pos="VERB" lemma="&lt;:curaverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >curaverunt</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|coerarunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >coerarunt</w></sic>
+               </choice>
+               <choice>
+                  <corr><w pos="PRON" lemma="idemque" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >idemque</w></corr>
+                  <sic>
+                     <w pos="ADV" lemma="|corr|eidemque">eidemque</w></sic>
+               </choice>
+               <choice>
+                  <corr><w pos="VERB" lemma=":probo"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >probaverunt</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|probarunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >probarunt</w></sic>
+               </choice>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR364586" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR364604" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR364622" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR364665" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="control">
+               <binary value="true"/>
+            </f>
+            <f name="dynamicity">
+               <binary value="true"/>
+            </f>
+            <f name="participant">
+               <symbol value="explicit"/>
+            </f>
+            <f name="participantType">
+               <symbol value="animate"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR364640" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="pertinence">
+               <binary value="true"/>
+            </f>
+            <f name="modal">
+               <binary value="true"/>
+            </f>
+            <f name="lemma">
+               <symbol value="oportet"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR364709" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR364689" type="relation">
+            <f name="modality">
+               <symbol value="deontic"/>
+            </f>
+            <f name="marker" fVal="EDR364640"/>
+            <f name="scope" fVal="EDR364665"/>
+            <f name="type">
+               <symbol value="authority"/>
+            </f>
+            <f name="subtype">
+               <symbol value="obligation"/>
+            </f>
+            <f name="context">
+               <symbol value="official"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

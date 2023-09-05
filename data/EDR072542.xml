@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR072542">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR072542</title>
+            <title type="short">EDR072542</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="17"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR072542 , 2021-11-08 (Antonio Zumbo) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR072542"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (3)-(6), contulit ad imaginem
+                  Alfredo Sansone a. 2019 </bibl>. </p>
+            <p>Editions: <bibl> Not. Sc., 1911, Suppl., p. 90, con foto (tavv. V-VI) (P. Orsi) - AE
+                  1912 (1) ; AE 1912, 0245 (2) ; CIL 01 (2 ed.), 2542 (3), cfr. pp. 732 (4), 844
+                  (5), 1022 (6) ; ILLRP 0575 (7) ; F. Costabile, Istituzioni e forme costituzionali
+                  nelle città del Bruzio in età romana, Napoli 1984, p. 89, nt. 54 (8) ; Riv. Stor.
+                  Calabr., n.s. 6, 1985, p. 335 (M. Buonocore) (9) ; De Cazanove - J. Scheid (a cura
+                  di), Sanctuaires et sources dans l'Antiquité (Acte de la table ronde, Naples
+                  Centre Jean Bérard, 30 novembre 2001), Napoli 2003, p. 34, nt. 81 (D. Nonnis) (10)
+                  ; R. Spadea, Ricerche nel santuario di Hera Lacinia a Capo Colonna di Crotone,
+                  Roma 2006, pp. 60-62, con foto (figg. 58; 60) (11) ; R. Spadea (a cura di),
+                  Kroton. Studi e ricerche sulla polis achea e il suo territorio, Roma 2014, p. 239,
+                  con foto (tav. LX, a) (A. Ruga) (12) ; Cfr. M. Paoletti, apud S. Settis, Storia
+                  della Calabria antica: età italica e romana, vol. 2, Roma 1994, p. 526, nt. 209
+                  (13) ; Cfr. G. De Sensi Sestito (a cura di), La Calabria tirrenica nell'antichità.
+                  Nuovi documenti e problematiche storiche (Atti del Convegno, Rende 23-25 novembre
+                  2000), Soveria Mannelli 2008, pp. 569; 579 (A. Zumbo) (sui magistrati) (14) ; Cfr.
+                  G. Lena (a cura di), Ricerche archeologiche e storiche in Calabria. Modelli e
+                  prospettive (Atti del Convegno di Studi in onore di Giovanni Azzimmaturo fondatore
+                  e presidente emerito dell'Istituto per gli Studi Storici di Cosenza, Cosenza 24
+                  marzo 2007), Cosenza 2008, pp. 174-175 (A. Zumbo) (sui magistrati) (15) ; Cfr. R.
+                  Spadea, apud C. Mezzetti, Il Santuario di Hera al Capo Lacinio: l'analisi della
+                  forma, il restauro, la ricerca archeologica, Roma 2009, pp. 69-70; 84-85, con foto
+                  (figg. 9; 48) (16) ; Cfr. Aiônos, 22, 2018-2019, p. 79 (A. Sansone - A. Zumbo)
+                  (17) ; HD028467 (A. Scheithauer) (18) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <gap reason="lost" atLeast="1" atMost="3" unit="character"/>
+               <w pos="NOUN" lemma="Lucilius" msd="Case=Nom|Gender=Masc|Number=Sing">Lucilius</w>
+               <w pos="ADJ" lemma="Aulis" msd="Case=Dat|Gender=Masc|Number=Sing">A<ex>uli</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               <w pos="NOUN" lemma="macer" msd="Case=Nom|Gender=Masc|Number=Sing">Macer</w>
+               <w pos="NOUN" lemma="Titus" msd="Case=Nom|Gender=Masc|Number=Sing">T<ex>itus</ex></w>
+               <w pos="NOUN" lemma="Annaeus" msd="Case=Gen|Gender=Masc|Number=Sing">Annaeus</w>
+               <w pos="VERB" lemma="sSexo"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                     >Sex<ex>ti</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               <choice>
+                  <corr><w pos="VERB" lemma="thrado"
+                        msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        >Thraso</w></corr>
+                  <sic><w pos="NOUN" lemma="|Trhaso" msd="Case=Abl|Gender=Masc|Number=Sing"
+                        >Trhaso</w></sic>
+               </choice>
+               <choice>
+                  <corr><w pos="VERB" lemma="duo"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >duoviri</w></corr>
+
+                  <sic>
+                     <w pos="VERB" lemma="|Ivirei"
+                        msd="Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act"
+                           ><supplied evidence="edition">I</supplied>Ivirei</w></sic>
+               </choice>
+               <lb n="2"/>
+               <w pos="ADJ" lemma="quinquennales" msd="Case=Nom|Gender=Masc|Number=Sing"><supplied
+                     evidence="edition">quin</supplied>q<supplied evidence="edition"
+                  >ue</supplied>nnales</w>
+               <w pos="VERB" lemma="ex|corr|exs"
+                  msd="Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act"><choice>
+                     <corr>ex</corr>
+                     <sic>exs</sic>
+                  </choice></w>
+               <w pos="VERB" lemma="seno"
+                  msd="Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                     >s<ex>enatus</ex></w>
+               <w pos="NOUN" lemma="consulto" msd="Case=Abl|Gender=Masc|Number=Sing"
+                     >c<ex>onsulto</ex></w>
+               <w pos="NOUN" lemma="balneus" msd="Case=Nom|Gender=Neut|Number=Sing">balneum</w>
+               <w pos="VERB" lemma="aedifico" msd="Case=Acc|Gender=Neut|Number=Sing|VerbForm=Gdv">
+                  <choice>
+                     <corr>aedifica<seg function="marker" ana="#EDR274878">ndum</seg></corr>
+                     <sic>aedeificandum</sic>
+                  </choice>
+               </w>
+               <choice>
+                  <corr><w pos="VERB" lemma="&lt;:curaverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >curaverunt</w></corr>
+                  <sic><w pos="VERB" lemma="|corr|couravrunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >couravrunt</w></sic>
+               </choice>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR274878" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+
+      </back>
+   </text>
+</TEI>

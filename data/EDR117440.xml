@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR117440">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR117440</title>
+            <title type="short">EDR117440</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="9"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR117440 , 2018-01-31 (MONICA CHIABà) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR117440"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1) </bibl>. </p>
+            <p>Editions: <bibl> CIL 01, 0538 (1) ; CIL 05, 00873 (2) ; CIL 01 (2 ed.), 0621 (3),
+                  cfr. p. 919 (4) ; ILLRP 0324, cfr. p. 326 (5) ; Degrassi, Imagines, 0143 (6) ; I.
+                  Calabi Limentani, A. Degrassi, Epigrafia latina. Con un'appendice bibliografica,
+                  Varese 1968, p. 240, nr. 43, con foto = 1991 (4 ed.), pp. 227-228, nr. 43, con
+                  foto (7) ; Da Aquileia a Venezia. Una mediazione tra l'Europa e l'Oriente dal II
+                  secolo a.C. al VI secolo d.C., Milano 1980, pp. 24, 26, con foto (B. Forlati
+                  Tamaro) (8) ; Ant. A. Adr., 24, 1984, p. 216, nr. 1 (G. Bandelli) (9) ; Aq. N.,
+                  58, 1987, c. 323, con foto (R. Benali) - AE 1990 (10) ; G. Bandelli, Ricerche
+                  sulla colonizzazione romana della Gallia Cisalpina. Le fasi iniziali e il caso
+                  aquileiese, Roma 1988, p. 97, nr. 1 (11) ; AE 1990, 0388 (12) ; J.B. Brusin,
+                  Inscriptiones Aquileiae, vol. I, Udine 1991, nr. 0027, con foto (13) ; M.
+                  Sehlmeyer, Stadtrömische Ehrenstatuen der republikanischen Zeit. Historizität und
+                  Kontext von Symbolen nobilitären Standesbewusstseins (Historia. Einzelschriften,
+                  Heft 130), Stuttgart 1999, p. 111, nr. 5 (14) ; Ant. A.Adr., 50, 2003, p. 9, nr.
+                  1, con foto, con traduzione in italiano (G. Lettich) (15) ; Ant. A. Adr., 68,
+                  2009, p. 78, fig. 4 (C. Zaccaria) (16) ; Moenibus et portu celeberimma. Aquileia:
+                  storia di una città, Roma 2009, pp. 8-9, fig. 1 (M. Chiabà) (17) ; Aquileia
+                  patrimonio dell'umanità, a cura di L. Fozzati, Udine 2010, pp. 70-72, con foto (C.
+                  Zaccaria) (18) ; Ubi erat Lupa, ID-Nr. 13400, con foto (19) ; G. Tozzi, Le
+                  iscrizioni della collezione Obizzi, Roma 2017, pp.85-87, nr. 41 (20) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Lucius" msd="Case=Nom|Gender=Masc|Number=Sing"> L<ex>ucius</ex>
+               </w>
+             
+               <w pos="NOUN" lemma="Manlius" msd="Case=Nom|Gender=Masc|Number=Sing">Manlius</w>
+               <w pos="NOUN" lemma="luci" msd="Case=Nom|Gender=Masc|Number=Sing">L<ex>uci</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+              
+               <lb n="2"/>
+               <w pos="NOUN" lemma="Acidinus" msd="Case=Nom|Gender=Masc|Number=Sing">Acidinus</w>
+               <pc>,</pc>
+               <w pos="NOUN" lemma="triumvir" msd="Case=Acc|Gender=Masc|Number=Sing"
+                     >triu<ex>mvir</ex></w>
+               <lb n="3"/>
+               <w pos="NOUN" lemma="Aquileia" msd="Case=Gen|Gender=Fem|Number=Sing">Aquileiae</w>
+               <w pos="NOUN" lemma="colonia" msd="Case=Gen|Gender=Fem|Number=Sing">coloniae</w>
+               <lb n="4"/>
+               <w pos="VERB" lemma="deduco" msd="Case=Gen|Gender=Fem|Number=Sing|VerbForm=Gdv">
+                     deducu<seg function="marker" ana="#EDR22876">ndae</seg>
+               </w>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR22876" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

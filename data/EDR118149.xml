@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR118149">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR118149</title>
+            <title type="short">EDR118149</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="21"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR118149 , 2016-08-30 (ANTONELLA FERRARO)<ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR118149"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1)-(13), contulit ad imaginem
+                  Ferro a. 2012. Aliam inscriptionem eiusdem monumenti invenies ad EDR072973.
+               </bibl>. </p>
+            <p>Editions: <bibl> CIL 01 (2 ed.), 2519 (1) ; ILLRP 0771 (2) ; Raccolta di scritti in
+                  onore di G. Lumbroso, Milano 1925, pp. 287-292 (R. Paribeni) - AE 1925 (3) ; AE
+                  1925, 0127 (4) ; Mouseion, 3, 1927, pp. 197-203 (A. Sogliano) - AE 1927 (5) ; AE
+                  1925, 0167 (6) ; HD025426 (7) ; E.J. Jory, apud N. Navarese, Teatri romani. Gli
+                  spettacoli nell'antica Roma, Bologna 1996, pp. 167-189 (8) ; R. Friggeri, La
+                  collezione epigrafica del Museo Nazionale Romano alle Terme di Diocleziano, Milano
+                  2001, p. 62, con foto (9) ; Epigrafia 2006 (Tituli 9), Roma 2008, pp. 1410-1411
+                  (C. Caruso) (10) ; Not. Sc., 19-20, 2008-2009, pp. 208-214, con foto (A.
+                  Carapellucci - C. Ferro) (11) ; A. Kolb - J. Fugmann, Tod in Rom. Grabinschriften
+                  als Spiegel roemischen Lebens, Main am Rhein 2008, pp. 203-205, nr. 54 (12) ;
+                  Terme di Diocleziano: la collezione epigrafica, Milano 2012, pp. 231-232, nr. IV,
+                  23, con foto (C. Caruso) (13) ; A. Giardina - F. Pesando, Roma caput mundi. La
+                  mostra, Milano 2012, pp. 47-48, nr. 63, con foto e traduzioni in italiano e in
+                  inglese (14) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Lucius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >L<ex>ucius</ex></w>
+               
+               <w pos="NOUN" lemma="Aurelius" msd="Case=Nom|Gender=Masc|Number=Sing">Aurelius</w>
+               <w pos="NOUN" lemma="luci" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >L<ex>uci</ex></w>
+               <w pos="NOUN" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >l<ex>ibertus</ex></w>
+               
+               <w pos="NOUN" lemma="Philum" msd="Case=Nom|Gender=Masc|Number=Sing">Philo</w>
+               <pc>,</pc>
+               <w pos="NOUN" lemma="magister" msd="Case=Nom|Gender=Masc|Number=Sing">magister</w>
+               <w pos="NOUN" lemma="septumus" msd="Case=Abl|Gender=Masc|Number=Sing">septumo</w>
+               <w pos="NOUN" lemma="synhodus" msd="Case=Gen|Gender=Masc|Number=Sing">synhodi</w>
+               <lb n="2"/>
+               <w pos="NOUN" lemma="societas" msd="Case=Gen|Gender=Fem|Number=Sing">societatis</w>
+               <w pos="NOUN" lemma="cantor" msd="Case=Gen|Gender=Masc|Number=Plur">cantorum</w>
+               <w pos="NOUN" lemma="Graecus" msd="Case=Gen|Gender=Masc|Number=Plur">Graecorum</w>
+               <w pos="NOUN" lemma="quique" msd="Case=Gen|Gender=Masc|Number=Plur">quiq<supplied
+                     evidence="edition">u</supplied>e</w>
+               <w pos="ADP" lemma="in">in</w>
+               <w pos="PRON" lemma="hic" msd="Case=Abl|Gender=Fem|Number=Sing">hac</w>
+               <lb n="3"/>
+               <w pos="NOUN" lemma="societas" msd="Case=Abl|Gender=Fem|Number=Sing">societate</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">sunt</w>
+               <w pos="ADP" lemma="de">de</w>
+               <w pos="PRON" lemma="suus" msd="Case=Abl|Gender=Fem|Number=Sing">sua</w>
+               <w pos="NOUN" lemma="pecunia" msd="Case=Abl|Gender=Fem|Number=Sing">pecunia</w>
+               <w pos="VERB" lemma="reficio" msd="Case=Acc|Gender=Neut|Number=Sing|VerbForm=Gdv">
+                  reficiu<seg function="marker" ana="#EDR091797">n<supplied evidence="edition"
+                        >d</supplied>um</seg>
+               </w>
+               <lb n="4"/>
+               <w pos="VERB" lemma="curo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  ><choice><corr>curavit</corr><sic>coeravit</sic></choice></w>
+               <pc>.</pc>
+               <lb n="5"/>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR091797" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

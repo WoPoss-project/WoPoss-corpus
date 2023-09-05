@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR143648">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR143648</title>
+            <title type="short">EDR143648</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="28"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR143648 , 2020-11-03 (Kyle HELMS) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR143648"
+                  />
+               </bibl>. Based on the edition: <bibl>undetermined</bibl>. </p>
+            <p>Editions: <bibl> CIL 04, 04966 (1), cfr. p. 705 (2) ; CIL 01 (2 ed.), 2540a (3) ;
+                  Not. Sc., 1883, p. 52 (A. Sogliano) (4) ; Rhein. Mus. 38, 1883, p. 474 (F.
+                  Buecheler) (5) ; Neue Jahrb. Philol. Paed., 127, 1883, p. 798 (E. Baehrens) (6) ;
+                  CLE 0934 (7) ; M. Della Corte, Pompei, i nuovi scavi e l'anfiteatro, Pompei 1930,
+                  pp. 78 sg. (8) ; Riv. Ind. Gr. It., 16, 1932, 106 (Fr. Ribezzo) (9) ; W. Krenkel,
+                  Pompeianische Inschriften, Heidelberg 1962, p. 43 (10) ; Epigraphica, 30, 1968, p.
+                  120 (H. Solin) - AE 1968 (11) ; AE 1968, 0116 (12) ; Yale Class. St., 21, 1969 (D.
+                  O. Ross) 131 (13) ; Quad. Foggia, 2-3, 1982-1983, p. 3 sg. (V. Tandoi) = V.
+                  Tandoi, Scritti di filologia e di storia della cultura classica, Pisa 1992, vol.
+                  I, p. 156 sg. (14) ; A. M. Morelli, L'epigramma latina prima di Catullo, Cassino
+                  2000, p. 238 con foto a colori p. 104 sg. (15) ; A. Varone, Erotica pompeiana:
+                  love inscriptions on the walls of Pompeii, Roma 2001, p. 105 sg. (16) ; E.
+                  Courtney, The Fragmentary Latin Poets (2 ed.), Oxford 2003, p. 79 sg., 506 (17) ;
+                  A. Varone, Titulorum graphio exaratorum qui in CIL Vol. IV collecti sunt imagines,
+                  Roma 2012, vol. II, p. 399 con foto (18) ;
+                  http://ancientgraffiti.org/Graffiti/graffito/AGP-EDR143648 (19) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <lb n="2"/>
+               <w pos="NOUN" lemma="quid" msd="Case=Nom|Gender=Masc|Number=Sing"><supplied
+                     evidence="edition">quid</supplied></w>
+               <w pos="VERB" lemma="fit"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     ><supplied evidence="edition">f</supplied>it</w>
+               <w pos="NOUN" lemma="vis" msd="Case=Abl|Gender=Fem|Number=Sing">vi</w>
+               <w pos="PRON" lemma="ego" msd="Case=Acc|Gender=Masc|Number=Sing">me</w>
+               <pc>,</pc>
+               <choice>
+                  <corr><w pos="NOUN" lemma=":oculus" msd="Case=Dat|Gender=Masc|Number=Sing"
+                        >oculi</w></corr>
+                  <sic>
+                     <w pos="ADJ" lemma="|corr|oculeì" msd="Case=Dat|Gender=Neut|Number=Sing"
+                        >oculeì</w></sic>
+               </choice>
+               <pc>,</pc>
+               <choice>
+                  <corr><w pos="ADV" lemma="&lt;:postquam">postquam</w></corr>
+                  <sic><w pos="ADV" lemma="|corr|posquam">posquam</w></sic>
+               </choice>
+               <choice>
+                  <corr><w pos="VERB" lemma="&lt;:deduxistis"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >deduxistis</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|deducxstis"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >deducxstis</w></sic>
+               </choice>
+               <w pos="ADP" lemma="in">in</w>
+               <w pos="NOUN" lemma="ignis" msd="Case=Acc|Gender=Masc|Number=Sing">ignem</w>
+               <lb n="3"/>
+               <w pos="NOUN" lemma="non" msd="Case=Nom|Gender=Masc|Number=Sing"><supplied
+                     evidence="edition">no</supplied>n</w>
+               <w pos="ADP" lemma="ob">ob</w>
+               <w pos="NOUN" lemma="vis" msd="Case=Acc|Gender=Fem|Number=Sing">vim</w>
+               <choice>
+                  <corr>
+                     <w pos="ADJ" lemma=":vester" msd="Case=Abl|Gender=Masc|Number=Plur"
+                     >vestris</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|vestreis"
+                        msd="Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >vestreis</w></sic>
+               </choice>
+               <w pos="VERB" lemma="largifico"
+                  msd="Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act"
+                  >largificatis</w>
+               <w pos="NOUN" lemma="genis" msd="Case=Abl|Gender=Fem|Number=Plur">geneis</w>
+               <pc>.</pc>
+            </s>
+            <s n="6">
+               <lb n="4"/>
+               <w pos="NOUN" lemma="porro" msd="Case=Nom|Gender=Masc|Number=Sing"><supplied
+                     evidence="edition">porr</supplied><unclear>o</unclear></w>
+               <w pos="ADV" lemma="non">
+                  <seg function="negation" corresp="#EDR313462">non</seg>
+               </w>
+               <w pos="VERB" lemma="possum"
+                  msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">
+                  <seg function="marker" ana="#EDR313462">possunt</seg>
+               </w>
+               <w pos="NOUN" lemma="lacrima" msd="Case=Nom|Gender=Fem|Number=Plur">
+                  <seg function="participant" type="inanimate" corresp="#EDR313521">lacrumae</seg>
+               </w>
+               <seg function="scope" ana="#EDR313521">
+                  <w pos="VERB" lemma="restinguo" msd="Tense=Pres|VerbForm=Inf|Voice=Act"
+                     function="main">restinguere</w>
+                  <choice>
+                     <corr>
+                        <w pos="NOUN" lemma="flamma" msd="Case=Acc|Gender=Fem|Number=Sing"
+                           >flammam</w></corr>
+                     <sic>
+                        <w pos="NOUN" lemma="flamma" msd="Case=Acc|Gender=Fem|Number=Sing"
+                           >flamam</w>
+                     </sic>
+                  </choice>
+               </seg>
+               <pc>,</pc>
+               <lb n="5"/>
+               <w pos="NOUN" lemma="haec" msd="Case=Acc|Gender=Masc|Number=Sing"><supplied
+                     evidence="edition">hae</supplied>c</w>
+               <w pos="NOUN" lemma="os" msd="Case=Acc|Gender=Neut|Number=Sing">os</w>
+               <w pos="VERB" lemma="incendo"
+                  msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                  >incendunt</w>
+               <w pos="VERB" lemma="tabifico"
+                  msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                  >tabificantque</w>
+               <w pos="NOUN" lemma="animus" msd="Case=Acc|Gender=Masc|Number=Sing">animum</w>
+               <pc>.</pc>
+            </s>
+            <s n="7">
+               <lb n="6"/>
+               <lb n="7"/>
+               <lb n="8"/>
+               <w pos="ADJ" lemma="Tiburtinus" msd="Case=Nom|Gender=Masc|Number=Sing">Tiburtinus</w>
+               <choice>
+                  <corr><w>ἐποίησε</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|epoese"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >epoese</w></sic>
+               </choice>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR313462" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="negative"/>
+            </f>
+            <f name="pertinence">
+               <binary value="true"/>
+            </f>
+            <f name="modal">
+               <binary value="true"/>
+            </f>
+            <f name="lemma">
+               <symbol value="possum"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR313521" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="control">
+               <binary value="true"/>
+            </f>
+            <f name="dynamicity">
+               <binary value="true"/>
+            </f>
+            <f name="participant">
+               <symbol value="explicit"/>
+            </f>
+            <f name="participantType">
+               <symbol value="inanimate"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR313545" type="relation">
+            <f name="modality">
+               <symbol value="dynamic"/>
+            </f>
+            <f name="marker" fVal="EDR313462"/>
+            <f name="scope" fVal="EDR313521"/>
+            <f name="meaning">
+               <symbol value="possibility"/>
+            </f>
+            <f name="type">
+               <symbol value="participant-inherent"/>
+            </f>
+            <f name="function">
+               <symbol value="rhetoric"/>
+            </f>
+            <f name="note">
+               <string>personification of tears</string>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

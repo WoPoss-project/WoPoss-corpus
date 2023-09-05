@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDCS-15200042">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDCS-15200042</title>
+            <title type="short">EDCS-15200042</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="50"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphik-Datenbank Clauss / Slaby (EDCS). Record: <bibl
+                  type="sourceEdition">EDCS-15200042 <ptr target="https://db.edcs.eu/epigr/epi.php"
+                  />
+               </bibl>.</p>
+            <p>Reference edition: <bibl type="referenceEdition">Warmington, Tituli sepulcrales, 51,
+                  p. 22.</bibl>
+            </p>
+            <p>Other editions: <bibl>CIL 09, 04933 = CIL 01, 01837 (p 1047, 1048) = CIL 14, *00068b
+                  = CLE 00054 = ILLRP 00971 = CLERegio-IV 00088 = AE 2001, +00908</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Posilla" msd="Case=Nom|Gender=Fem|Number=Sing"> Posilla </w>
+               <w pos="ADJ" lemma="Senenius" msd="Case=Nom|Gender=Fem|Number=Sing">Senenia</w>
+               <w pos="ADJ" lemma="quartus" msd="Case=Gen|Gender=Fem|Number=Sing"
+                  >Quart<ex>ae</ex></w>
+               <w pos="NOUN" lemma="filia" msd="Case=Nom|Gender=Fem|Number=Sing">f<ex>ilia</ex></w>
+               <w pos="ADJ" lemma="quartus" msd="Case=Abl|Gender=Fem|Number=Sing">Quarta</w>
+               <w pos="NOUN" lemma="Senenia" msd="Case=Nom|Gender=Fem|Number=Sing">Senenia</w>
+               <w pos="NOUN" lemma="caiae" msd="Case=Nom|Gender=Fem|Number=Sing">C<ex>ai</ex></w>
+               <w pos="NOUN" lemma="libertum" msd="Case=Nom|Gender=Fem|Number=Sing"
+                  >l<ex>iberta</ex></w>
+               <pc>.</pc>
+            </s>
+            <s n="2">
+               <lb n="2"/>
+               <w pos="NOUN" lemma="hospis" msd="Case=Nom|Gender=Masc|Number=Sing">Hospes</w>
+               <pc>,</pc>
+               <w pos="VERB" lemma="resisto"
+                  msd="Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act">resiste</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="ADV" lemma="pariter">pa<supplied evidence="edition">rite</supplied>r</w>
+               <w pos="VERB" lemma="scribo"
+                  msd="Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                  >scriptum</w>
+               <w pos="VERB" lemma="perlio"
+                  msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">perl<choice>
+                     <sic>e</sic>
+                     <corr>i</corr>
+                  </choice>g<supplied evidence="edition">e</supplied></w>
+               <pc>:</pc>
+            </s>
+            <s n="3">
+               <lb n="3"/>
+               <w pos="NOUN" lemma="mater" msd="Case=Acc|Gender=Fem|Number=Sing">
+                  <seg function="participant" type="animate" corresp="#EDCS062872">matrem</seg>
+               </w>
+               <w pos="ADV" lemma="non">
+                  <seg function="negation" corresp="#EDCS062843">non</seg>
+               </w>
+               <seg function="marker" ana="#EDCS062843">
+                  <w pos="VERB" lemma="licitus"
+                     msd="Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                     >licitum</w>
+                  <w pos="VERB" lemma="sum" msd="Tense=Pres|VerbForm=Inf|Voice=Act">ess<supplied
+                        evidence="edition">e</supplied></w>
+               </seg>
+               <seg function="scope" ana="#EDCS062872">
+                  <w pos="ADJ" lemma="unicus" msd="Case=Abl|Gender=Fem|Number=Sing"><supplied
+                        evidence="edition">uni</supplied>ca</w>
+                  <w pos="NOUN" lemma="gnata" msd="Case=Abl|Gender=Fem|Number=Sing"
+                     ><del>g</del>nata</w>
+                  <w pos="VERB" lemma="fruor" msd="Tense=Pres|VerbForm=Inf|Voice=Pass"
+                     function="main">fru<del>e</del>i</w>
+               </seg>
+               <pc>,</pc>
+               <lb n="4"/>
+               <w pos="ADV" lemma="quam">quam</w>
+               <w pos="ADJ" lemma="neus" msd="Case=Nom|Gender=Masc|Number=Sing">n<del>e</del>i</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >esset</w>
+               <w pos="VERB" lemma="credo"
+                  msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">credo</w>
+               <w pos="NOUN" lemma="nescio" msd="Case=Abl|Gender=Masc|Number=Sing">nesci<supplied
+                     evidence="edition">o</supplied></w>
+               <w pos="PRON" lemma="qui" msd="Case=Nom|Gender=Masc|Number=Sing"><supplied
+                     evidence="edition">qui</supplied></w>
+               <w pos="VERB" lemma="invedio"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >inveidit</w>
+               <w pos="NOUN" lemma="deus" msd="Case=Nom|Gender=Masc|Number=Sing">deus</w>
+               <pc>.</pc>
+            </s>
+            <s n="4">
+               <lb n="5"/>
+               <w pos="PRON" lemma="is" msd="Case=Acc|Gender=Fem|Number=Sing">Eam</w>
+               <w pos="SCONJ" lemma="quoniam">quoniam</w>
+               <w pos="ADV" lemma="haud">
+                  <seg function="negation" corresp="#EDCS062941">haud</seg>
+               </w>
+               <seg function="marker" ana="#EDCS062941">
+                  <w pos="VERB" lemma="licet"
+                     msd="Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                     >licitum</w>
+                  <supplied evidence="edition"><w pos="VERB" lemma="sum"
+                        msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        >est</w></supplied>
+               </seg>
+               <seg function="scope" ana="#EDCS062977">
+                  <w pos="ADJ" lemma="vivus" msd="Case=Acc|Gender=Fem|Number=Sing">
+                     <seg function="participant" type="animate_patient" corresp="#EDCS062977"
+                           ><supplied evidence="edition">v</supplied><del>e</del>ivam</seg>
+                  </w>
+                  <w pos="ADP" lemma="ab">a</w>
+                  <w pos="NOUN" lemma="mater" msd="Case=Abl|Gender=Fem|Number=Sing">
+                     <seg function="participant" type="animate" corresp="#EDCS062977">matre</seg>
+                  </w>
+                  <w pos="VERB" lemma="orno" msd="Tense=Pres|VerbForm=Inf|Voice=Pass"
+                     function="main">ornari<del>er</del></w>
+               </seg>
+               <pc>,</pc>
+               <lb n="6"/>
+               <w pos="ADP" lemma="post">post</w>
+               <w pos="NOUN" lemma="mors" msd="Case=Acc|Gender=Fem|Number=Sing">mortem</w>
+               <w pos="PRON" lemma="hic" msd="Case=Acc|Gender=Neut|Number=Sing">
+                  <seg function="scope" ana="#EDCS063026">hoc</seg>
+               </w>
+               <w pos="VERB" lemma="facio"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >fecit</w>
+               <w pos="ADJ" lemma="aequus" msd="Case=Acc|Gender=Neut|Number=Sing">
+                  <seg function="marker" ana="#EDCS062923">aeq<supplied evidence="edition"
+                        >uo</supplied>m</seg>
+               </w>
+               <w pos="ADJ" lemma="exter" msd="Case=Abl|Degree=Sup|Gender=Neut|Number=Sing"
+                  >extremo</w>
+               <w pos="NOUN" lemma="tempus" msd="Case=Abl|Gender=Neut|Number=Sing">tempore</w>
+               <pc>;</pc>
+            </s>
+            <s n="5">
+               <lb n="7"/>
+               <w pos="VERB" lemma="decoro"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >decoravit</w>
+               <w pos="PRON" lemma="is" msd="Case=Acc|Gender=Fem|Number=Sing">eam</w>
+               <w pos="NOUN" lemma="monumentum" msd="Case=Abl|Gender=Neut|Number=Sing">monumento</w>
+               <w pos="ADV" lemma="quam">quam</w>
+               <w pos="VERB" lemma="deiletto"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+                     >de<del>i</del>lex<del>s</del>erat</w>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDCS062843" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="negative"/>
+            </f>
+            <f name="pertinence">
+               <binary value="true"/>
+            </f>
+            <f name="modal">
+               <binary value="true"/>
+            </f>
+            <f name="lemma">
+               <symbol value="licitus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS062872" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="control">
+               <binary value="false"/>
+            </f>
+            <f name="dynamicity">
+               <binary value="false"/>
+            </f>
+            <f name="participant">
+               <symbol value="explicit"/>
+            </f>
+            <f name="participantType">
+               <symbol value="animate"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS062941" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="negative"/>
+            </f>
+            <f name="pertinence">
+               <binary value="true"/>
+            </f>
+            <f name="modal">
+               <binary value="true"/>
+            </f>
+            <f name="lemma">
+               <symbol value="licet"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS062977" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="control">
+               <binary value="true"/>
+            </f>
+            <f name="dynamicity">
+               <binary value="true"/>
+            </f>
+            <f name="participant">
+               <symbol value="explicit"/>
+            </f>
+            <f name="participantType">
+               <symbol value="animate_patient"/>
+            </f>
+            <f name="participantType">
+               <symbol value="animate"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS063026" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="SoA">
+               <binary value="false"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS062923" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="pertinence">
+               <binary value="true"/>
+            </f>
+            <f name="modal">
+               <binary value="true"/>
+            </f>
+            <f name="lemma">
+               <symbol value="aequus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS062903" type="relation">
+            <f name="modality">
+               <symbol value="deontic"/>
+            </f>
+            <f name="marker" fVal="EDCS062843"/>
+            <f name="scope" fVal="EDCS062872"/>
+            <f name="type">
+               <symbol value="authority"/>
+            </f>
+            <f name="subtype">
+               <symbol value="permission"/>
+            </f>
+            <f name="context">
+               <symbol value="non-official"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS063064" type="relation">
+            <f name="modality">
+               <symbol value="dynamic"/>
+            </f>
+            <f name="marker" fVal="EDCS062843"/>
+            <f name="scope" fVal="EDCS062872"/>
+            <f name="meaning">
+               <symbol value="possibility"/>
+            </f>
+            <f name="type">
+               <symbol value="participant-imposed"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS063006" type="relation">
+            <f name="modality">
+               <symbol value="dynamic"/>
+            </f>
+            <f name="marker" fVal="EDCS062941"/>
+            <f name="scope" fVal="EDCS062977"/>
+            <f name="meaning">
+               <symbol value="possibility"/>
+            </f>
+            <f name="type">
+               <symbol value="situational"/>
+            </f>
+         </fs>
+         <fs xml:id="EDCS063044" type="relation">
+            <f name="modality">
+               <symbol value="deontic"/>
+            </f>
+            <f name="marker" fVal="EDCS062923"/>
+            <f name="scope" fVal="EDCS063026"/>
+            <f name="type">
+               <symbol value="acceptability"/>
+            </f>
+            <f name="degree">
+               <symbol value="absolutely_necessary"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

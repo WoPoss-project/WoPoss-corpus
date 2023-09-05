@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR150769">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR150769</title>
+            <title type="short">EDR150769</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="97"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR150769 , 2015-09-04 (Andrea CANNUCCIARI) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR150769"
+                  />
+               </bibl>. Based on the edition: <bibl> Epigraphica, 54, 1992, pp. 68-75, F, con foto
+                  (A. Massi Secondari - L. Sensi) - AE 1992</bibl>. </p>
+            <p>Editions: <bibl>AE 1992, 0560</bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Viator" msd="Case=Nom|Gender=Masc|Number=Sing"> Viator </w>
+               <pc>,</pc>
+               <w pos="VERB" lemma="resisto"
+                  msd="Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act">resiste</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="VERB" lemma="rogo"
+                  msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">rogo</w>
+               <lb n="2"/>
+               <w pos="PRON" lemma="tu" msd="Case=Acc|Gender=Masc|Number=Sing">te</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="NOUN" lemma="lex" msd="Case=Abl|Gender=Fem|Number=Sing">lege</w>
+               <pc>.</pc>
+            </s>
+            <s n="2">
+               <w pos="ADP" lemma="post">Post</w>
+               <w pos="NOUN" lemma="annus" msd="Case=Acc|Gender=Masc|Number=Plur">annos</w>
+               <w pos="NUM" lemma="XXVII">XXVII</w>
+               <w pos="VERB" lemma="venio"
+                  msd="Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act">ven<supplied
+                     evidence="edition">i</supplied></w>
+               <lb n="3"/>
+               <w pos="NOUN" lemma="Hispellum" msd="Case=Acc|Gender=Neut|Number=Plur">Hispellum</w>
+               <pc>,</pc>
+               <w pos="ADP" lemma="in">in</w>
+               <w pos="NOUN" lemma="patria" msd="Case=Acc|Gender=Fem|Number=Sing">patriam</w>
+               <w pos="PRON" lemma="meus" msd="Case=Acc|Gender=Fem|Number=Sing">meam</w>
+               <pc>.</pc>
+            </s>
+            <s n="3">
+               <w pos="VERB" lemma="Scio"
+                  msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">Scio</w>
+               <lb n="4"/>
+               <w pos="PRON" lemma="ego" msd="Case=Acc|Gender=Masc|Number=Sing">me</w>
+               <w pos="VERB" lemma="oporter" msd="Tense=Pres|VerbForm=Inf|Voice=Act">oportere</w>
+               <w pos="VERB" lemma="colo" msd="Tense=Pres|VerbForm=Inf|Voice=Act">colere</w>
+               <w pos="PRON" lemma="hic" msd="Case=Acc|Gender=Masc|Number=Sing">hunc</w>
+               <w pos="NOUN" lemma="locus" msd="Case=Acc|Gender=Masc|Number=Sing">locum</w>
+               <lb n="5"/>
+               <w pos="SCONJ" lemma="ubi">ubi</w>
+               <w pos="NOUN" lemma="os" msd="Case=Acc|Gender=Neut|Number=Plur">ossa</w>
+               <w pos="PRON" lemma="meus" msd="Case=Gen|Gender=Masc|Number=Plur">meorum</w>
+               <w pos="VERB" lemma="requiesco"
+                  msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                  >requiescunt</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="ADJ" lemma="meus" msd="Case=Abl|Gender=Fem|Number=Sing">mea</w>
+               <lb n="6"/>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="NOUN" lemma="amicus" msd="Case=Gen|Gender=Masc|Number=Plur">amicorum</w>
+               <w pos="PRON" lemma="meus" msd="Case=Gen|Gender=Masc|Number=Plur">meorum</w>
+               <pc>.</pc>
+            </s>
+            <s n="4">
+               <w pos="ADP" lemma="ex">Ex</w>
+               <w pos="PRON" lemma="hic" msd="Case=Abl|Gender=Neut|Number=Sing">hoc</w>
+               <w pos="NOUN" lemma="sepulcrum" msd="Case=Abl|Gender=Neut|Number=Sing"
+                     >sepulch<supplied evidence="edition">ro</supplied></w>
+               <lb n="7"/>
+               <w pos="NOUN" lemma="cippis" msd="Case=Nom|Gender=Masc|Number=Plur">cippi</w>
+               <w pos="VERB" lemma="pereo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >perierunt</w>
+               <w pos="ADJ" lemma="duo" msd="Case=Nom|Gender=Masc|Number=Plur">duo</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="NOUN" lemma="frons" msd="Case=Nom|Gender=Fem|Number=Plur">frontes</w>
+               <w pos="ADJ" lemma="duo" msd="Case=Nom|Gender=Fem|Number=Plur">duae</w>
+               <w pos="VERB" lemma="scio"
+                  msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                     >sciun<supplied evidence="edition">t</supplied></w>
+               <lb n="8"/>
+               <w pos="PRON" lemma="qui" msd="Case=Nom|Gender=Masc|Number=Plur">qui</w>
+               <w pos="VERB" lemma="surupo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >surupuit</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="NOUN" lemma="actur" msd="Case=Nom|Gender=Masc|Number=Plur">acturi</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">simus</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="VERB" lemma="lego"
+                  msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >legimus</w>
+               <lb n="9"/>
+               <pc>,</pc>
+               <w pos="ADV" lemma="satis">satis</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">est</w>
+               <w pos="NOUN" lemma="testis" msd="Case=Gen|Gender=Masc|Number=Plur">testium</w>
+               <pc>.</pc>
+            </s>
+            <s n="5"><lb n="10"/>
+               <w pos="NOUN" lemma="Publius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >P<ex>ublius</ex></w>
+               <w pos="NOUN" lemma="Alpionius" msd="Case=Nom|Gender=Masc|Number=Sing">Alpionius</w>
+               <w pos="NOUN" lemma="publus" msd="Case=Gen|Gender=Masc|Number=Sing"
+                  >P<ex>ubli</ex></w>
+               <w pos="NOUN" lemma="libertus" msd="Case=Gen|Gender=Masc|Number=Sing"
+                     >l<ex>ibertus</ex></w>
+               <w pos="NOUN" lemma="era" msd="Case=Gen|Gender=Masc|Number=Sing">Eros</w>
+               <w pos="PRON" lemma="hic" msd="Case=Acc|Gender=Masc|Number=Sing">hunc</w>
+               <w pos="NOUN" lemma="locus" msd="Case=Acc|Gender=Masc|Number=Sing">locum</w>
+               <w pos="VERB" lemma="emio"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">emit</w>
+               <lb n="11"/>
+               <w pos="NOUN" lemma="deus" msd="Case=Dat|Gender=Masc|Number=Plur">Dis</w>
+               <pc>,</pc>
+               <w pos="NOUN" lemma="titum" msd="Case=Abl|Gender=Masc|Number=Sing">T<ex>ito</ex></w>
+               <w pos="NOUN" lemma="Heterius" msd="Case=Abl|Gender=Masc|Number=Sing">Heterio</w>
+               <w pos="NOUN" lemma="Cnaeus" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >Cn<ex>aei</ex></w>
+               <w pos="NOUN" lemma="filius" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >f<ex>ilio</ex></w>
+               <w pos="ADJ" lemma="tertius" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >tert<ex>io</ex></w>
+               <w pos="NOUN" lemma="Kalendae" msd="Case=Acc|Gender=Fem|Number=Plur"
+                     >k<ex>alendas</ex></w>
+               <w pos="ADJ" lemma="Januarius" msd="Case=Acc|Gender=Fem|Number=Plur"
+                     >Ian<ex>uarias</ex></w>
+               <pc>,</pc>
+               <w pos="NOUN" lemma="Marcus" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >M<ex>arco</ex></w>
+               <w pos="NOUN" lemma="Vinicius" msd="Case=Abl|Gender=Masc|Number=Sing">Vinicio</w>
+               <lb n="12"/>
+               <w pos="NOUN" lemma="Publius" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >P<ex>ublio</ex></w>
+               <w pos="NOUN" lemma="Silius" msd="Case=Abl|Gender=Masc|Number=Sing">Silio</w>
+               <w pos="NOUN" lemma="consul" msd="Case=Abl|Gender=Masc|Number=Plur"
+                     >co<ex>n</ex>s<ex>ulibus</ex></w>
+               <pc>,</pc>
+               <w pos="PRON" lemma="sui" msd="Case=Dat|Gender=Masc|Number=Sing">sibi</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="ADJ" lemma="suus" msd="Case=Abl|Gender=Masc|Number=Plur">suis</w>
+               <pc>.</pc>
+            </s>
+            <s n="6">
+               <lb n="13"/>
+               <w pos="NOUN" lemma="Alpionia" msd="Case=Gen|Gender=Fem|Number=Sing">Alpioniae</w>
+               <w pos="NOUN" lemma="publus" msd="Case=Gen|Gender=Masc|Number=Sing"
+                  >P<ex>ubli</ex></w>
+               <w pos="NOUN" lemma="liberta" msd="Case=Gen|Gender=Fem|Number=Sing"
+                  ><ex>l</ex>ibertae</w>
+               <w pos="NOUN" lemma="cicada" msd="Case=Dat|Gender=Fem|Number=Sing">Cicadae</w>
+               <pc>,</pc>
+               <lb n="14"/>
+               <w pos="NOUN" lemma="Publius" msd="Case=Dat|Gender=Masc|Number=Sing"
+                  >P<ex>ublio</ex></w>
+               <w pos="NOUN" lemma="Alpionius" msd="Case=Dat|Gender=Neut|Number=Sing">Alpionio</w>
+               <w pos="VERB" lemma="philarguo"
+                  msd="Case=Dat|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act">Philargu<supplied
+                     evidence="edition">ro</supplied></w>
+               <pc>,</pc>
+               <w pos="ADJ" lemma="Publius" msd="Case=Dat|Gender=Masc|Number=Sing"
+                  >P<ex>ublio</ex></w>
+               <w pos="NOUN" lemma="Alipionius" msd="Case=Dat|Gender=Neut|Number=Sing">Aḷ<supplied
+                     evidence="edition" cert="low">pionio</supplied></w>
+               <pc>...</pc>
+               <w pos="NOUN" lemma="Eia" msd="Case=Dat|Gender=Fem|Number=Sing"><gap
+                     reason="illegible"/>iae</w>
+               <w pos="NOUN" lemma="Antiopa" msd="Case=Dat|Gender=Fem|Number=Sing">Antiopae</w>
+               <w pos="NOUN" lemma="mater" msd="Case=Dat|Gender=Fem|Number=Sing">matr<supplied
+                     evidence="edition">i</supplied></w>
+               <pc>,</pc>
+               <lb n="15"/>
+               <gap reason="illegible"/>
+               <w pos="NOUN" lemma="burius" msd="Case=Dat|Gender=Masc|Number=Sing"><gap
+                     reason="illegible"/>urio</w>
+               <w pos="VERB" lemma="philono"
+                  msd="Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                  >Philosito</w>
+               <w pos="ADJ" lemma="frater" msd="Case=Dat|Gender=Masc|Number=Sing">fr<ex cert="low"
+                     >atri</ex></w>
+               <pc>,</pc>
+               <lb n="16"/>
+               <gap reason="illegible"/>
+               <w pos="ADJ" lemma="mae" msd="Case=Acc|Gender=Neut|Number=Plur"><gap
+                     reason="illegible"/>ae</w>
+               <w pos="NOUN" lemma="soror" msd="Case=Dat|Gender=Masc|Number=Sing">sorori</w>
+               <w pos="PRON" lemma="meus" msd="Case=Dat|Gender=Fem|Number=Sing">mea<supplied
+                     evidence="edition">e</supplied></w>
+               <pc>,</pc>
+               <lb n="17"/>
+               <gap reason="illegible"/>
+               <w pos="NOUN" lemma="Eia" msd="Case=Dat|Gender=Fem|Number=Sing"><gap
+                     reason="illegible"/>iae</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="ADJ" lemma="Primus" msd="Case=Gen|Gender=Fem|Number=Sing">Prima<supplied
+                     evidence="edition">e</supplied></w>
+               <pc>,</pc>
+               <lb n="18"/>
+               <gap reason="illegible"/>
+               <w pos="NOUN" lemma="filius" msd="Case=Dat|Gender=Fem|Number=Plur">fil<ex cert="low"
+                     >iis</ex></w>
+               <w pos="NOUN" lemma="Fiscilia" msd="Case=Dat|Gender=Fem|Number=Sing">Fiscil<supplied
+                     evidence="edition" cert="low">iae</supplied></w>
+               <pc>.</pc>
+            </s></ab>
+      </body>
+      <back/>
+   </text>
+</TEI>

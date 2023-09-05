@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR183849">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR183849</title>
+            <title type="short">EDR183849</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="17"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR183849 , 2022-06-02 (Pauline JACSONT) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR183849"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (25), contulit ad apographum et
+                  imaginem Jacsont a. 2022 </bibl>. </p>
+            <p>Editions: <bibl> CIL 10, 07513 (1) ; CIL 01 (2 ed.), 02225 (2), cfr. p. 1096 (3) ;
+                  CIS, 01, 0149 (4) ; Monatsberichte del K. Akademie der Wissenschaft zu Berlin
+                  1881, pp. 429-433, con traduzione in tedesco (A. Dillmann) (5) ; M. Lidzbarski,
+                  Handbuch der nordsemitischen Epigraphik, Weimar 1889, p. 434 A1, taf. XVIII, 1,
+                  con disegno (6) ; G.A. Cooke, A Textbook of North-Semitic Inscriptions, Oxford
+                  1903, nr. 60 con traduzione in inglese (7) ; M. Lidzbarski, Kanaanäische
+                  Inschriften (Moabitisch, Althebräisch, Phönizisch, Punisch), Altsemitische Texte
+                  I, Giessen 1907, nr. 100 (8) ; L. Diehl, Altlateinisch Inschriften (3 ed.), Kleine
+                  Texte für Vorlesungen und Übungen 38-40, Berlin 1930, nr. 0103 (9) ; ILLRP 0158
+                  (10) ; E.H. Warmington, Remains of Old Latin, IV, Archaic Inscriptions,
+                  London-Cambridge Mass. 1940, p. 84, nr. 80 (11) ; H. Donner - W. Röllig,
+                  Kanaanäische und aramäische Inschriften, Wiesbaden 1962-64, nr. 172 con traduzione
+                  in tedesco (12) ; E. Diehl, Altlateinische Inschriften, Berlin 1964 (5 ed.), nr.
+                  0103 add (13) ; M.G. Guzzo Amadasi, Le iscrizioni fenicie e puniche delle colonie
+                  in Occidente, Studi Semitici 28, Roma 1967, pp. 129-131, 5, Tav. LIII, con foto e
+                  traduzione in italiano (14) ; L'Africa romana, 11, Ozieri 1994, pp. pp. 1466-1468
+                  nr. 26 con foto e traduzione in italiano (R. Zucca) - AE 1998 (15) ; AE 1998, 0663
+                  (16) ; F. Porrà, Catalogo P.E.T.R.A.E. delle iscrizioni latine della Sardegna.
+                  Versione preliminare, Cagliari 2002, pp. 768-769, nr. 581, con foto e traduzione
+                  in italiano (17) ; R. Zucca, Insulae Sardiniae et Corsicae, Roma 2003,pp. 234-235
+                  nr. 20, 236-237 n. 1 con traduzione in italiano (18) ; Epigrafia di confine,
+                  confine dell'epigrafia, Atti del Convegno Internazionale di Epigrafia (Bertinoro
+                  10-11 ottobre 2003), Faenza 2004, pp. 226-229 con foto (F. Cenerini) - AE 2004
+                  (19) ; AE 2004, 0011 (20) ; J.N. Adams, Bilingualism and the Latin Language,
+                  Cambridge 2004, pp. 212-213 (21) ; K. Jongeling, Handbook of Neo-Punic
+                  Inscriptions, Tübingen 2008, p. 280 nr. 3 con traduzione in inglese (22) ; A.
+                  Campus, Punico - Postpunico. Per una Archeologia dopo Cartagine, Tivoli 2012, pp.
+                  180-183 con traduzione in italiano (23) ; L'officina epigrafica romana: in ricordo
+                  di Giancarlo Susini, Faenza 2012, pp. 403-405 con foto, disegno e traduzione in in
+                  italiano (A. Mastino, R. Zucca) (24) ; Paisajes epigráficos de la Hispania romana.
+                  Monumentos, contextos, topografías, Roma 2013, pp. 239-240 con foto e traduzione
+                  in italiano (R. Zucca) (25) ; M.J. Estarán Tolosa, Epigrafía bilingüe del
+                  Occidente romano: el latín y las lenguas locales en las inscripcio-nes bilingües y
+                  mixtas, Zaragoza, 2016, pp. 504-508 nr. P14 con disegno e traduzioni in tedesco,
+                  italiano, inglese (26) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Ḥimilconi" msd="Case=Gen|Gender=Neut|Number=Sing"> Ḥimilconi </w>
+               <w pos="ADJ" lemma="Idnibalis" msd="Case=Abl|Gender=Neut|Number=Plur">Idnibalis</w>
+               <w pos="NOUN" lemma="filio" msd="Case=Abl|Gender=Neut|Number=Sing"
+                  >f<ex>ilio</ex></w>
+               
+               <w pos="NOUN" lemma="Hịmilconis" msd="Case=Gen|Gender=Fem|Number=Sing"
+                     >Hị<supplied evidence="edition">milconis</supplied></w>
+               <supplied evidence="edition"><w pos="NOUN" lemma=":nepoti〉"
+                     msd="Case=Gen|Gender=Fem|Number=Sing">nepoti</w></supplied>
+               <lb n="2"/>
+               <w pos="ADJ" lemma=":qui|corr|quei" msd="Case=Nom|Gender=Masc|Number=Sing"><choice>
+                     <corr>qui</corr>
+                     <sic>quei</sic>
+                  </choice></w>
+               <w pos="PRON" lemma="hic" msd="Case=Acc|Gender=Fem|Number=Sing">hanc</w>
+               <w pos="NOUN" lemma="aedes" msd="Case=Acc|Gender=Fem|Number=Sing">aedem</w>
+               <w pos="ADP" lemma="ex">ex</w>
+               <w pos="VERB" lemma="sento"
+                  msd="Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                     >s<ex>entatus</ex></w>
+               
+               <w pos="NOUN" lemma="consultus" msd="Case=Abl|Gender=Masc|Number=Sing"
+                     >c<ex>onsulto</ex></w>
+               <w pos="VERB" lemma="facio" msd="Case=Acc|Gender=Fem|Number=Sing|VerbForm=Gdv">
+                     fac<supplied evidence="edition">ie <seg function="marker" ana="#EDR483274"
+                        >ndam</seg></supplied>
+               </w> 
+               <lb n="3"/>
+               <choice>
+                  <corr><w pos="VERB" lemma="&lt;:curavit"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >curavit</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|coeravit"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >coeravit</w></sic>
+               </choice>
+               <w pos="NOUN" lemma="Himilcus" msd="Case=Nom|Gender=Masc|Number=Sing">Himilco</w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               <w pos="NOUN" lemma="statua" msd="Case=Acc|Gender=Fem|Number=Sing">statuam</w>
+               <w pos="VERB" lemma="posuit"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     ><supplied evidence="edition">posuit</supplied></w>
+               <pc>.</pc>
+            </s>
+            <s n="6">
+               <lb n="4"/>
+               <lb n="5"/>
+               <lb n="6"/><foreign>l<supplied evidence="edition">ḥ</supplied>mlkt bn ʼdnbʽl bn
+                  ḥmlkt <lb n="7"/> hrpṭ ʽl myṭbʼ ršʼ hslky <lb n="8"/> lbnʼt hmqdš st lhrbt lʼlt
+                     <lb n="9"/> ṭynʼ t hmʼš st bnʼ ḥmlkt</foreign>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR483274" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

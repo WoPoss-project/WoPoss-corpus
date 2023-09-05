@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR159314">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR159314</title>
+            <title type="short">EDR159314</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="95"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR159314 , 2020-03-09 (SILVIA EVANGELISTI) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR159314"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (2)</bibl>. </p>
+            <p>Editions: <bibl> CIL 01 (2 ed.), 1223 (1) ; CIL 06, 23551 (2), cfr. pp. 3529 (3),
+                  3917 (4) ; CIL 10, 06620 (5), cfr. p. 988 (6) ; CLE 0970 (7) ; SupplIt, 02, 1983,
+                  p. 37 (H. Solin) (8) ; http://www.mqdq.it/textsce/CE|ce|0970 (9) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="ADV" lemma="?lius"><gap/>lius</w>
+               <w pos="NOUN" lemma="Publis" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >P<ex>ubli</ex></w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <w pos="NOUN" lemma="Clodiae" msd="Case=Gen|Gender=Fem|Number=Sing">Clodia<supplied
+                     evidence="edition">e</supplied></w>
+               <w pos="ADJ" lemma="libertus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >l<ex>ibertus</ex></w>
+               <w pos="NOUN" lemma="optatus" msd="Case=Nom|Gender=Masc|Number=Sing">Optatus</w>
+               <lb n="2"/>
+               <w pos="VERB" lemma="vito"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >vixit</w>
+               <w pos="NOUN" lemma="annus" msd="Case=Acc|Gender=Masc|Number=Plur">annos</w>
+               <w pos="NOUN" lemma="sex" msd="Case=Abl|Gender=Fem|Number=Sing">VI</w>
+               <pc>,</pc>
+               <w pos="ADJ" lemma="menses" msd="Case=Acc|Gender=Masc|Number=Plur"
+                  >m<ex>enses</ex></w>
+               <w pos="NUM" lemma="VIII" msd="Case=Gen|Gender=Masc|Number=Sing">VIII</w>
+               <lb n="3"/>
+               <supplied evidence="edition">
+                  <w pos="NOUN" lemma="hic" msd="Case=Gen|Gender=Masc|Number=Sing">hic</w>
+                  <w pos="NOUN" lemma="mes" msd="Case=Gen|Gender=Masc|Number=Sing">me</w>
+               </supplied>
+               <w pos="VERB" lemma="floro"
+                  msd="Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part">florentem</w>
+               <w pos="PRON" lemma="meus" msd="Case=Gen|Gender=Masc|Number=Sing">mei</w>
+               <w pos="VERB" lemma="com̂bussere" msd="Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act"
+                  >com̂bussere</w>
+               <w pos="NOUN" lemma="parens" msd="Case=Acc|Gender=Masc|Number=Plur">parentes</w>
+               <lb n="4"/>
+               <supplied evidence="edition">
+                  <w pos="PRON" lemma="nemo" msd="Case=Gen|Gender=Masc|Number=Sing">nemo</w>
+               </supplied>
+               <w pos="ADJ" lemma="dum" msd="Case=Acc|Gender=Fem|Number=Sing"><supplied
+                     evidence="edition">d</supplied>um</w>
+               <w pos="VERB" lemma="licet"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act">
+                  <seg function="marker" ana="#EDR618350">licuit</seg>
+               </w>
+               <seg function="scope" ana="#EDR618448">
+                  <w pos="NOUN" lemma="superus" msd="Case=Dat|Gender=Masc|Number=Plur">superìs</w>
+                  <w pos="ADJ" lemma="acceptus" msd="Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing"
+                     >acceptior</w>
+                  <w pos="ADJ" lemma="unus" msd="Case=Nom|Gender=Masc|Number=Sing">unus</w>
+                  <supplied><w>vivere</w></supplied>
+               </seg>
+               <lb n="5"/>
+               <supplied evidence="edition">
+                  <seg function="scope" part="Y" ana="#EDR618393">
+                     <w pos="PRON" lemma="qui" msd="Case=Dat|Gender=Masc|Number=Sing">cui</w>
+                  </seg>
+                  <w pos="NOUN" lemma="nemo" msd="Case=Nom|Gender=Masc|Number=Sing">
+                     <seg function="participant" type="animate" corresp="#EDR618393">
+                        <seg function="negation" corresp="#EDR618368">nemo</seg>
+                     </seg>
+                  </w></supplied>
+               <w pos="VERB" lemma="possum"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act">
+                  <seg function="marker" ana="#EDR618368"><supplied evidence="edition"
+                     >po</supplied>tuit</seg>
+               </w>
+               <seg function="scope" ana="#EDR618393" part="Y">
+                  <w pos="NOUN" lemma="verbum" msd="Case=Abl|Gender=Neut|Number=Sing">verbo</w>
+                  <w pos="VERB" lemma="maledico" msd="Tense=Pres|VerbForm=Inf|Voice=Act"
+                     function="main">maledìcere</w>
+                  <w pos="ADJ" lemma="acerbus" msd="Case=Abl|Gender=Neut|Number=Sing">acerbo</w>
+               </seg>
+               <lb n="6"/>
+               <gap/>
+               <w pos="ADP" lemma="ad">ad</w>
+               <w pos="ADJ" lemma="superus" msd="Case=Acc|Gender=Masc|Number=Plur">superos</w>
+               <w pos="PRON" lemma="qui" msd="Case=Acc|Gender=Masc|Number=Plur">quos</w>
+               <w pos="NOUN" lemma="pietas" msd="Case=Nom|Gender=Fem|Number=Sing">pietas</w>
+               <w pos="VERB" lemma="cogo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >cogi<gap/></w>
+            </s>
+            <s n="2">
+               <lb n="7"/>
+               <gap/>
+               <w pos="ADV" lemma="modestus">modeste</w>
+               <w pos="ADV" lemma="nunc">nunc</w>
+               <w pos="PRON" lemma="tu" msd="Case=Nom|Gender=Masc|Number=Plur">vos</w>
+               <w pos="VERB" lemma="quono"
+                  msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"
+                  >quon<gap/></w>
+            </s>
+            <s n="3">
+               <lb n="8"/>
+               <w pos="NOUN" lemma="?tìs" msd="Case=Dat|Gender=Masc|Number=Sing"><gap/>tìs</w>
+               <w pos="VERB" lemma="dico"
+                  msd="Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act">dicite</w>
+               <w pos="ADV" lemma="uOpto">'Optate</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">sit</w>
+               <supplied evidence="edition">
+                  <w pos="CCONJ" lemma="tibi">tibi</w>
+                  <w pos="NOUN" lemma="terra" msd="Case=Nom|Gender=Fem|Number=Sing">terra</w>
+                  <w pos="VERB" lemma="levideo"
+                     msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     >levis'</w></supplied>
+               <pc>.</pc>
+            </s>
+            <s n="4">
+               <lb n="9"/>
+               <w pos="NOUN" lemma="?o" msd="Case=Nom|Gender=Masc|Number=Sing"><gap/>o</w>
+               <w pos="NOUN" lemma="annus" msd="Case=Gen|Gender=Masc|Number=Plur">annorum</w>
+               <w pos="ADV" lemma="nondum">nondum</w>
+               <gap/>
+               <lb n="10"/>
+               <w pos="NOUN" lemma="cum" msd="Case=Nom|Gender=Masc|Number=Sing"><supplied
+                     evidence="edition">c</supplied>um</w>
+               <w pos="ADP" lemma="ad">ad</w>
+               <w pos="NOUN" lemma="mors" msd="Case=Acc|Gender=Fem|Number=Sing">mortem</w>
+               <w pos="NOUN" lemma="matra" msd="Case=Gen|Gender=Neut|Number=Sing">matris</w>
+               <supplied evidence="edition">
+                  <w pos="NOUN" lemma="de" msd="Case=Gen|Gender=Masc|Number=Sing">de</w>
+                  <w pos="NOUN" lemma="gremium" msd="Case=Abl|Gender=Neut|Number=Sing">gremio</w>
+                  <w pos="NOUN" lemma="rapior" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >rapior</w></supplied>
+               <lb n="11"/>
+               <w pos="NOUN" lemma="Manes" msd="Case=Abl|Gender=Masc|Number=Plur">Manibus</w>
+               <w pos="ADJ" lemma="carus" msd="Case=Nom|Gender=Masc|Number=Sing">carus</w>
+               <w pos="VERB" lemma="sum"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >fui</w>
+               <choice>
+                  <corr>
+                     <w pos="ADJ" lemma=":vivus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >vivus</w></corr>
+                  <sic>
+                     <w pos="ADJ" lemma="|corr|vivos" msd="Case=Acc|Gender=Masc|Number=Sing"
+                        >vivos</w></sic>
+               </choice>
+               <w pos="NOUN" lemma="care" msd="Case=Gen|Gender=Masc|Number=Sing">cari</w>
+               <gap/>
+               <lb n="12"/>
+               <choice>
+                  <corr><w pos="VERB" lemma=":adverto"
+                        msd="Aspect=Perf|Case=Abl|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+                        >adversis</w></corr>
+                  <sic>
+                     <w pos="ADJ" lemma="|corr|adverseis"
+                        msd="Case=Abl|Degree=Sup|Gender=Masc|Number=Plur">adverseis</w></sic>
+               </choice>
+               <w pos="PRON" lemma="qui" msd="Case=Nom|Gender=Fem|Number=Sing">quae</w>
+               <w pos="PRON" lemma="ego" msd="Case=Acc|Gender=Masc|Number=Sing">me</w>
+               <w pos="VERB" lemma="tollo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >sustulit</w>
+               <supplied evidence="edition">
+                  <w pos="NOUN" lemma="ominibus" msd="Case=Abl|Gender=Neut|Number=Plur"
+                  >ominibus</w></supplied>
+               <lb n="13"/>
+               <w pos="VERB" lemma="desino"
+                  msd="Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act">desine</w>
+               <w pos="ADV" lemma="jam">iam</w>
+               <w pos="ADV" lemma="frustra">frustra</w>
+               <pc>,</pc>
+               <w pos="PRON" lemma="meus" msd="Case=Voc|Gender=Fem|Number=Sing">mea</w>
+               <w pos="NOUN" lemma="mater" msd="Case=Nom|Gender=Fem|Number=Sing">mater</w>
+               <pc>,</pc>
+               <supplied evidence="edition">
+                  <w pos="NOUN" lemma="desine" msd="Case=Abl|Gender=Fem|Number=Sing">desine</w>
+                  <pc>,</pc>
+                  <w pos="VERB" lemma="quaeso"
+                     msd="Aspect=Perf|Case=Abl|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                     >quaeso</w>
+               </supplied>
+               <lb n="14"/>
+               <w pos="PRON" lemma="tu" msd="Case=Acc|Gender=Fem|Number=Sing">te</w>
+               <w pos="ADJ" lemma="miser" msd="Case=Acc|Gender=Fem|Number=Sing">miseram</w>
+               <w pos="ADJ" lemma="totus" msd="Case=Acc|Gender=Masc|Number=Plur">totos</w>
+               <w pos="VERB" lemma="exagito" msd="Tense=Pres|VerbForm=Inf|Voice=Act">exagitare</w>
+               <w pos="NOUN" lemma="dies" msd="Case=Acc|Gender=Masc|Number=Sing">dies</w>
+               <lb n="15"/>
+               <w pos="CCONJ" lemma="nam">namque</w>
+               <w pos="NOUN" lemma="dolor" msd="Case=Nom|Gender=Masc|Number=Sing">dolor</w>
+               <w pos="ADJ" lemma="talis" msd="Case=Nom|Gender=Masc|Number=Sing">talis</w>
+               <w pos="ADV" lemma="non">non</w>
+               <w pos="ADV" lemma="nunc">nunc</w>
+               <w pos="PRON" lemma="tu" msd="Case=Dat|Gender=Masc|Number=Sing">tibi</w>
+               <supplied evidence="edition">
+                  <w pos="VERB" lemma="contigit"
+                     msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                     >contigit</w>
+                  <w pos="NOUN" lemma="uni" msd="Case=Abl|Gender=Neut|Number=Sing">uni</w>
+               </supplied>
+               <lb n="16"/>
+               <w pos="PRON" lemma="hic" msd="Case=Acc|Gender=Neut|Number=Plur">haec</w>
+               <w pos="PRON" lemma="idem" msd="Case=Acc|Gender=Neut|Number=Plur">eadem</w>
+               <w pos="CCONJ" lemma="et">et</w>
+               <choice>
+                  <corr><w pos="ADJ" lemma=":magnus" msd="Case=Acc|Gender=Masc|Number=Plur"
+                        >magnis</w></corr>
+                  <sic>
+                     <w pos="ADJ" lemma="|corr|magneis" msd="Case=Acc|Gender=Masc|Number=Plur"
+                        >magneis</w></sic>
+               </choice>
+               <w pos="NOUN" lemma="rex" msd="Case=Dat|Gender=Masc|Number=Plur">regibus</w>
+               <supplied evidence="edition">
+                  <w pos="VERB" lemma="acciderant"
+                     msd="Mood=Ind|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act"
+                     >acciderant</w>
+               </supplied>
+               <lb n="17"/>
+               <w pos="ADJ" lemma="clarus" msd="Case=Acc|Gender=Neut|Number=Plur">Clara</w>
+               <w pos="VERB" lemma="amaro"
+                  msd="Case=Abl|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act"
+                  >Amaranto</w>
+               <gap/>
+               <lb n="18"/>
+               <w pos="NOUN" lemma="ave." msd="Case=Gen|Gender=Masc|Number=Sing">Av<gap/></w>
+               <gap unit="line" extent="unknown"/>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR618350" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="pertinence">
+               <symbol value="fragmentary"/>
+            </f>
+            <f name="lemma">
+               <symbol value="licet"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR618448" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="control">
+               <binary value="false"/>
+            </f>
+            <f name="dynamicity">
+               <binary value="false"/>
+            </f>
+            <f name="participant">
+               <symbol value="implicit"/>
+            </f>
+            <f name="participantType">
+               <symbol value="animate"/>
+            </f>
+            <f name="note">
+               <string>implicit scope: vivere (?)</string>
+            </f>
+         </fs>
+         <fs xml:id="EDR618368" type="marker">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="negative"/>
+            </f>
+            <f name="pertinence">
+               <symbol value="fragmentary"/>
+            </f>
+            <f name="lemma">
+               <symbol value="possum"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR618393" type="scope">
+            <f name="utterance">
+               <symbol value="non-interrogative"/>
+            </f>
+            <f name="polarity">
+               <symbol value="affirmative"/>
+            </f>
+            <f name="control">
+               <binary value="true"/>
+            </f>
+            <f name="dynamicity">
+               <binary value="true"/>
+            </f>
+            <f name="participant">
+               <symbol value="explicit"/>
+            </f>
+            <f name="participantType">
+               <symbol value="animate"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR618466" type="relation">
+            <f name="modality">
+               <symbol value="dynamic"/>
+            </f>
+            <f name="marker" fVal="EDR618350"/>
+            <f name="scope" fVal="EDR618448"/>
+            <f name="meaning">
+               <symbol value="possibility"/>
+            </f>
+            <f name="type">
+               <symbol value="situational"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR618486" type="relation">
+            <f name="modality">
+               <symbol value="dynamic"/>
+            </f>
+            <f name="marker" fVal="EDR618350"/>
+            <f name="scope" fVal="EDR618448"/>
+            <f name="meaning">
+               <symbol value="possibility"/>
+            </f>
+            <f name="type">
+               <symbol value="participant-imposed"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR618428" type="relation">
+            <f name="modality">
+               <symbol value="deontic"/>
+            </f>
+            <f name="marker" fVal="EDR618368"/>
+            <f name="scope" fVal="EDR618393"/>
+            <f name="type">
+               <symbol value="acceptability"/>
+            </f>
+            <f name="degree">
+               <symbol value="unacceptable"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR618523" type="relation">
+            <f name="modality">
+               <symbol value="dynamic"/>
+            </f>
+            <f name="marker" fVal="EDR618368"/>
+            <f name="scope" fVal="EDR618393"/>
+            <f name="meaning">
+               <symbol value="possibility"/>
+            </f>
+            <f name="type">
+               <symbol value="participant-imposed"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

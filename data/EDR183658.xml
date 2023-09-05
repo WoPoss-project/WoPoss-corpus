@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR183658">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR183658</title>
+            <title type="short">EDR183658</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="7"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR183658 , 2022-04-21 (Pauline JACSONT) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR183658"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1)-(8), contulit ad apographum
+                  Jacsont a. 2022 </bibl>. </p>
+            <p>Editions: <bibl> CIL 06, 24752 (1), cfr. p. 3917 (2) ; CIL 01 (2 ed.), 1368 (3), cfr.
+                  p. 978 (5) ; ILS 8174 (6) ; ILLRP 0937 (7) ; E.H. Warmington, Remains of Old
+                  Latin, IV, Archaic Inscriptions, London-Cambridge Mass. 1940, p. 46, nr. 100 (8) ;
+                  E. Diehl, Altlateinische Inschriften, Berlin 1964 (5 ed.), nr. 671 add (9) ; cfr.
+                  Libitina e dintorni (Libitina 3), Roma 2004, p. 406, G40 (C. Papi) (10) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Pontia" msd="Case=Nom|Gender=Fem|Number=Sing"> Pontia </w>
+               <w pos="NUM" lemma="primus" msd="Case=Nom|Gender=Fem|Number=Sing">Prima</w>
+               <lb n="2"/>
+               <w pos="NOUN" lemma=":hic|corr|heic" msd="Case=Nom|Gender=Masc|Number=Sing"><choice>
+                     <corr>hic</corr>
+                     <sic>heic</sic>
+                  </choice></w>
+               <w pos="VERB" lemma="sum"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">est</w>
+               <w pos="NOUN" lemma="sita" msd="Case=Nom|Gender=Fem|Number=Sing">sita</w>
+               <pc>;</pc>
+               <w pos="VERB" lemma="nolo"
+                  msd="Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act">
+                  <choice>
+                     <corr>
+                        <seg function="marker" ana="#EDR47946">noli</seg></corr>
+                     <sic>nolei</sic>
+                  </choice>
+               </w>
+               <w pos="VERB" lemma="violo" msd="Tense=Pres|VerbForm=Inf|Voice=Act">violare</w>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR47946" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="true"/>
+            </f>
+            <f name="lemma">
+               <symbol value="nolo"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

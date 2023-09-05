@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR015958">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR015958</title>
+            <title type="short">EDR015958</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="27"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR015958 , 2015-02-26 (Fabiola Branchesi) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR015958"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1)-(7), contulit ad imaginem
+                  Branchesi a. 2006. </bibl>. </p>
+            <p>Editions: <bibl> CIL 11, 06331 (1) ; CIL 01 (2 ed.), 0719, p. 940 (2) ; ILLRP 0474
+                  (3) ; ILS 0026 (4) ; R. Bernardelli Calavalle, Le iscrizioni romane del Museo
+                  Civico di Fano, Fano 1983, pp. 176-179 con foto (5) ; Fano romana, Fano 1992, pp.
+                  59-62 con foto (G. Paci) - AE 1993 (6) ; AE 1993, 0622 (7) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Marcus" msd="Case=Nom|Gender=Masc|Number=Sing"> M<ex>arcus</ex>
+               </w>
+               
+               <w pos="NOUN" lemma="Terentius" msd="Case=Nom|Gender=Masc|Number=Sing">Terentius</w>
+               <w pos="NOUN" lemma="Marci" msd="Case=Abl|Gender=Masc|Number=Sing">M<ex>arci</ex></w>
+               <w pos="NOUN" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               
+               <lb n="2"/>
+               <w pos="NOUN" lemma="Varrum" msd="Case=Nom|Gender=Masc|Number=Sing">Varro</w>
+               <w pos="NOUN" lemma="lucullus" msd="Case=Nom|Gender=Masc|Number=Sing">Lucullus</w>
+               <pc>,</pc>
+               <lb n="3"/>
+               <w pos="ADP" lemma="pro">pro</w>
+               <w pos="NOUN" lemma="praetor" msd="Case=Abl|Gender=Masc|Number=Sing"
+                     >pr<ex>aetore</ex></w>
+               
+               <w pos="NOUN" lemma="terminus" msd="Case=Acc|Gender=Masc|Number=Plur">terminos</w>
+               <lb n="4"/>
+               <w pos="VERB" lemma="restituo" msd="Case=Acc|Gender=Masc|Number=Plur|VerbForm=Gdv">
+                  restitue <seg function="marker" ana="#EDR263331">ndos</seg>
+               </w>
+               <lb n="5"/>
+               <w pos="ADP" lemma="ex">ex</w>
+               <w pos="VERB" lemma="seno"
+                  msd="Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                     >s<ex>enatus</ex></w>
+               
+               <w pos="NOUN" lemma="consulto" msd="Case=Abl|Gender=Masc|Number=Sing"
+                     >c<ex>onsulto</ex></w>
+               
+               <choice>
+                  <corr>
+                     <w pos="VERB" lemma="&lt;:curavit"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >curavit</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|coeravit"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >coeravit</w></sic>
+               </choice>
+               <pc>,</pc>
+               <lb n="6"/>
+               <w pos="NOUN" lemma="qui" msd="Case=Abl|Gender=Fem|Number=Sing">qua</w>
+               <w pos="ADJ" lemma="Publus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >P<ex>ublius</ex></w>
+               
+               <w pos="NOUN" lemma="Licinius" msd="Case=Nom|Gender=Masc|Number=Sing">Licinius</w>
+               <pc>,</pc>
+               <lb n="7"/>
+               <w pos="NOUN" lemma="Appius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >Ap<ex>pius</ex></w>
+               
+               <w pos="NOUN" lemma="Claudius" msd="Case=Nom|Gender=Masc|Number=Sing">Claudius</w>
+               <pc>,</pc>
+               <lb n="8"/>
+               <choice>
+                  <corr><w pos="NOUN" lemma="Sempronius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >Sempronius</w></corr>
+                  <sic>
+                     <w pos="ADJ" lemma="|corr|Caius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >Caius</w></sic>
+               </choice>
+               <choice>
+                  <corr>
+                     <w pos="NOUN" lemma="Gracchus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >Gracchus</w>
+                  </corr>
+                  <sic><w pos="VERB" lemma="|Graccus"
+                        msd="Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                        >Graccus</w></sic>
+               </choice>
+               <pc>,</pc>
+               <choice>
+                  <corr><w pos="NOUN" lemma="&lt;:triumviri|corr"
+                        msd="Case=Nom|Gender=Masc|Number=Sing">triumviri</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|IIIviri"
+                        msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >IIIviri</w></sic>
+               </choice>
+               <lb n="9"/>
+               <w pos="NOUN" lemma="agris" msd="Case=Dat|Gender=Masc|Number=Sing">a<ex>gris</ex></w>
+               <w pos="VERB" lemma="do" msd="Case=Abl|Gender=Masc|Number=Plur|VerbForm=Gdv">
+                        d<ex>a<seg function="marker" ana="#EDR263277">ndis</seg></ex>
+               </w>
+               <w pos="VERB" lemma="adsigno" msd="Case=Abl|Gender=Masc|Number=Plur|VerbForm=Gdv">
+                        a<ex>dsigna<seg function="marker" ana="#EDR263295">ndis</seg></ex>
+               </w>
+               
+               <w pos="VERB" lemma="iudico" msd="Case=Abl|Gender=Masc|Number=Plur|VerbForm=Gdv">
+                        i<ex>udica<seg function="marker" ana="#EDR263313">ndis</seg></ex>
+               </w>
+               <pc>,</pc>
+               <w pos="VERB" lemma="statuo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >statuerunt</w>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR263331" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR263277" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR263295" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR263313" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR110711">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR110711</title>
+            <title type="short">EDR110711</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="19"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR110711 , 2019-05-23 (David NONNIS) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR110711"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1)-(6), contulit ad imaginem
+                  D. Nonnis (a. 2011) </bibl>. </p>
+            <p>Editions: <bibl> CIL 14, 03013 (1) ; ILS 5667 (2) ; CIL 01 (2 ed.), 1473 (3) cfr. p.
+                  998 (4) ; ILLRP 0659 (5) ; Mitt. Deutsch. Arch. Inst. (Roemisch.), 89, 1982, pp.
+                  56-57, cum imagine photographica (Taf. 16,1) (L. Quilici) (6) ; SupplIt Imagines -
+                  Latium 01, 0696, con altra bibliografia (7) ; cfr. F. Santangelo, Sulla, the
+                  Elites and the Empire, Leiden - Boston 2007, p. 142 (8) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Quintus" msd="Case=Nom|Gender=Masc|Number=Sing">
+                     Q<ex>uintus</ex>
+               </w>
+               
+               <w pos="ADJ" lemma="Vubuleus" msd="Case=Nom|Gender=Masc|Number=Sing">Vibuleius</w>
+               <w pos="NOUN" lemma="luci" msd="Case=Abl|Gender=Fem|Number=Sing"
+                  >L<ex>uci</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >f<ex>ilius</ex></w>
+               <pc>,</pc>
+               <lb n="2"/>
+               <w pos="NOUN" lemma="Lucius" msd="Case=Gen|Gender=Masc|Number=Sing"
+                     >L<ex>ucius</ex></w>
+               
+               <w pos="NOUN" lemma="statius" msd="Case=Nom|Gender=Masc|Number=Sing">Statius</w>
+               <w pos="NOUN" lemma="salvi" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >Sal<ex>vi</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >f<ex>ilius</ex></w>
+               <pc>,</pc>
+               <lb n="3"/>
+               <w pos="VERB" lemma="duoviro"
+                  msd="Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                     >duovir<ex>i</ex></w>
+               <pc>,</pc>
+               <lb n="4"/>
+               <w pos="NOUN" lemma="balnea" msd="Case=Acc|Gender=Fem|Number=Plur">balneas</w>
+               <choice>
+                  <corr><w pos="VERB" lemma="reficio"
+                        msd="Case=Acc|Gender=Fem|Number=Plur|VerbForm=Gdv"> reficie<seg
+                           function="marker" ana="#EDR202021">ndas</seg>
+                     </w></corr>
+                  <sic><w pos="VERB" lemma="reficio"
+                        msd="Case=Acc|Gender=Fem|Number=Plur|VerbForm=Gdv">reficiundas</w></sic>
+               </choice>
+               <pc>,</pc>
+               <lb n="5"/>
+               <w pos="NOUN" lemma="aqua" msd="Case=Acc|Gender=Fem|Number=Sing">aquam</w>
+               <w pos="ADP" lemma="per">per</w>
+               <w pos="ADJ" lemma="publicus" msd="Case=Acc|Gender=Neut|Number=Sing">publicum</w>
+               <lb n="6"/>
+               <w pos="ADJ" lemma="duco" msd="Case=Acc|Gender=Fem|Number=Sing|VerbForm=Gdv"> duce
+                     <seg function="marker" ana="#EDR202039">ndam</seg>
+               </w>
+               <w pos="NOUN" lemma="de" msd="Case=Acc|Gender=Fem|Number=Sing">d<ex>e</ex></w>
+               <w pos="NOUN" lemma="decurionum" msd="Case=Gen|Gender=Fem|Number=Plur"
+                     >d<ex>ecurionum</ex></w>
+               
+               <w pos="VERB" lemma="sentintio"
+                  msd="Case=Abl|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part"
+                     >s<ex>ententia</ex></w>
+               
+               <lb n="7"/>
+               <choice>
+                  <corr><w pos="VERB" lemma="&lt;:curaverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >curaverunt</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|coeravere"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >coeravere</w></sic>
+               </choice>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR202021" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+         <fs xml:id="EDR202039" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

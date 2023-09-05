@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR147377">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR147377</title>
+            <title type="short">EDR147377</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="32"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR147377 , 2015-02-14 (Marco MANNINO2) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR147377"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1)(6), contulit ad imaginem
+                  Mannino a. 2015</bibl>. </p>
+            <p>Editions: <bibl> CIL 09, 03137 (1) ; CIL 01 (2 ed.), 1794 (1), cfr. p. 1041 (2) ; ILS
+                  5643 (3) ; ILLRP 0621 (4) ; cfr. F. van Wonterghem, Superaequum, Corfinium, Sulmo,
+                  Forma Italiae, Regio IV 1, Firenze 1984, p. 189, con foto a fig. 240 (5) ; M.
+                  Buonocore, apud M. Buonocore - G. Firpo, Fonti latine e greche per la storia
+                  dell'Abruzzo antico, 1, Padova 1991, p. 352, nr. 2 (6) ; cfr. Mél. Arch. Hist. Ec.
+                  Fr. Rome. Ant., 104, 1, 1992, p. 115, nt. 31, p. 122, nt. 99 (C. Letta) (7) ; cfr.
+                  Arch. Rel. Gesch., 11, Berlin 2009, p. 14, nt. 45 (S. Estienne - O. De Cazanove)
+                  (8) ; cfr. G. Tosi, Gli edifici per spettacoli nell'Italia romana, Roma 2003, p.
+                  286 (9) ; F. Sear, Roman Theatres. An Architectural Study. Oxford Monographs in
+                  Classical Archaeology, Oxford 2006, p. 152 (10) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Titus" msd="Case=Nom|Gender=Masc|Number=Sing"> T<ex>itus</ex>
+               </w>
+               
+               <w pos="NOUN" lemma="Annius" msd="Case=Nom|Gender=Masc|Number=Sing">Annius</w>
+               <w pos="NOUN" lemma="titi" msd="Case=Abl|Gender=Masc|Number=Sing">T<ex>iti</ex></w>
+               <w pos="NOUN" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               
+               <w pos="NOUN" lemma="Rufus" msd="Case=Nom|Gender=Masc|Number=Sing">Rufus</w>
+               <pc>,</pc>
+               <lb n="2"/>
+               <w pos="NOUN" lemma="Lucius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >L<ex>ucius</ex></w>
+               
+               <w pos="NOUN" lemma="Septimius" msd="Case=Nom|Gender=Masc|Number=Sing">Septimius</w>
+               <w pos="X" lemma="sSalis">Sa<ex>lvi</ex></w>
+               
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               
+               <w pos="NOUN" lemma="Deṇtio" msd="Case=Abl|Gender=Neut|Number=Sing">Deṇtio</w>
+               <pc>,</pc>
+               <lb n="3"/>
+               <w pos="NOUN" lemma="Lucius" msd="Case=Gen|Gender=Masc|Number=Sing"
+                  >L<ex>ucius</ex></w>
+               
+               <w pos="NOUN" lemma="Annius" msd="Case=Nom|Gender=Masc|Number=Sing">Annius</w>
+               <w pos="NOUN" lemma="titi" msd="Case=Gen|Gender=Masc|Number=Sing">T<ex>iti</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Gen|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               
+               <w pos="NOUN" lemma="Grittum" msd="Case=Abl|Gender=Masc|Number=Sing">Gritto</w>
+               <w pos="X" lemma="m̂agist̂ri">m̂agist̂r<ex>i</ex></w>
+               
+               <lb n="4"/>
+               <w pos="ADP" lemma="ex">ex</w>
+               <w pos="NOUN" lemma="pagis" msd="Case=Gen|Gender=Masc|Number=Sing">pagi</w>
+               <w pos="NOUN" lemma="decreto" msd="Case=Abl|Gender=Masc|Number=Sing"
+                  >d<ex>ecreto</ex></w>
+               
+               <choice>
+                  <corr><w pos="NOUN" lemma=":scaena" msd="Case=Acc|Gender=Fem|Number=Sing"
+                        >scaenam</w></corr>
+                  <sic>
+                     <w pos="ADJ" lemma="|corr|scainam" msd="Case=Acc|Gender=Fem|Number=Sing"
+                        >scainam</w></sic>
+               </choice>
+               <w pos="VERB" lemma="facio" msd="Case=Acc|Gender=Fem|Number=Sing|VerbForm=Gdv">
+                     fac<ex>ie <seg function="marker" ana="#EDR332979">ndam</seg>
+                  </ex>
+               </w>
+               <choice>
+                  <corr><w pos="VERB" lemma="&lt;:curaverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >curaverunt</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|coiraverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >coiraverunt</w></sic>
+               </choice>
+               <pc>.</pc>
+            </s>
+            <s n="4">
+               <lb n="5"/>
+               <w pos="NOUN" lemma="Titus" msd="Case=Nom|Gender=Masc|Number=Sing">T<ex>itus</ex></w>
+               
+               <w pos="NOUN" lemma="Annius" msd="Case=Nom|Gender=Masc|Number=Sing">Annius</w>
+               <w pos="NOUN" lemma="titi" msd="Case=Abl|Gender=Masc|Number=Sing">T<ex>iti</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               
+               <w pos="NOUN" lemma="Rufus" msd="Case=Nom|Gender=Masc|Number=Sing">Ruf<ex>us</ex></w>
+               
+               <w pos="ADJ" lemma="Lucius" msd="Case=Acc|Gender=Masc|Number=Plur"
+                  >L<ex>ucius</ex></w>
+               
+               <w pos="NOUN" lemma="titi" msd="Case=Abl|Gender=Masc|Number=Sing">T<ex>iti</ex></w>
+               <w pos="ADJ" lemma="filius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >f<ex>ilius</ex></w>
+               
+               <w pos="NOUN" lemma="Grittum" msd="Case=Abl|Gender=Masc|Number=Sing">Gritto</w>
+               <lb n="6"/>
+               <w pos="VERB" lemma="probo"
+                  msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                  >probaverunt</w>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR332979" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EDR167360">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>EDR167360</title>
+            <title type="short">EDR167360</title>
+            <principal>Francesca Dell’Oro</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>The WoPoss modality corpus</edition>
+            <funder>Swiss National Science Foundation</funder>
+            <respStmt>
+               <resp>Text retrieval, preprocessing, automatic linguistic annotation, TEI conversion
+                  and curation</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+            <respStmt>
+               <resp>Semantic annotation and correction of the automatic annotation of modal
+                  passages</resp>
+               <name>Francesca Dell’Oro</name>
+            </respStmt>
+            <respStmt>
+               <resp>Preparatory work</resp>
+               <name>Thomas von Kaenel</name>
+            </respStmt>
+         </editionStmt>
+         <extent>
+            <measure unit="words" quantity="13"/>
+         </extent>
+         <publicationStmt>
+            <distributor>Institut des sciences du langage (University of Neuchâtel)</distributor>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+                  BY-NC</licence>
+            </availability>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Text provided by Epigraphic Database Rome (EDR). Record: <bibl type="sourceEdition"
+                  >EDR167360 , 2018-07-16 (Donato FASOLINI2) <ptr
+                     target="http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR167360"
+                  />
+               </bibl>. Based on the edition: <bibl> Textus secundum (1)-(14) et ex schedis M.
+                  Buonocore </bibl>. </p>
+            <p>Editions: <bibl> CIL 09, 03574 (1) ; CIL 01 (2 ed.), 1806 (2) cfr. p. 1044 (3) ; E.
+                  H. Warmington, Remains of Old Latin IV. Archaic Inscriptions, London - Cambridge,
+                  Mass. 1940 (lucis ope iterum impressum London - Cambridge, Mass. 1967), p. 113 (4)
+                  ; E. De Ruggiero, Sylloge epigraphica orbis Romana. Vol. 2 pars 1: Inscriptiones
+                  Italiae regionum I - V. Ed. D. Vaglieri, Romae 1892/94. Editio altera, Romae 1964,
+                  nr. 4023 (5) ; Mem. Ac. Linc., s. 8, 13, 1968, p. 376 con foto (A. La Regina) (6)
+                  ; E. Iovenitti, Paganica attraverso i secoli, Sulmona 1973, p. 45, nr. 2 (7) ;
+                  Rend. Ac. Linc., s. 8, 40, 1985, p. 193, n. 28 (M. Buonocore) (8) ; M. Buonocore,
+                  La tradizione manoscritta dell'epigrafia classica abruzzese nei codici della
+                  Biblioteca Apostolica Vaticana (Deputazione Abruzzese di Storia patria. Studi e
+                  Testi 8), L'Aquila 1986, p. 848 (9) ; Fonti latine e greche per la storia
+                  dell'Abruzzo antico (Deputazione Abruzzese di Storia patria. Documenti per la
+                  Storia d'Abruzzo 10, 1-2), II, L'Aquila 1998, p. 943, nr. 6 (M. Buonocore) (10) ;
+                  L'epigrafia del villaggio. Atti del Colloquio AIEGL - Borghesi 1990, Forlì 27-30
+                  settembre 1990 (Epigrafia e Antichità 12), Faenza 1993, p. 54 (M. Buonocore) (11)
+                  ; Mél. Arch. Hist. Ec. Fr. Rome. Ant., 104, 1992, p. 113, n. 18 (C. Letta) (12) ;
+                  Panorami, 8, 1, 1996, p. 26 (M. Buonocore) (13) ; Varia epigraphica. Atti del
+                  Colloquio Internazionale di Epigrafia. Bertinoro, 8-10 giugno 2000 (Epigrafia e
+                  Antichità 17), Bologna - Faenza 2001, p. 107 (M. Buonocore) (14) </bibl>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The SNSF-funded project <ref target="https://woposs.unine.ch/">A world of
+                  possibilities. Modal pathways over an extra-long period of time: the diachrony of
+                  modality in the Latin language (WoPoss)</ref> (SNSF n° PP00P1_176778), led by
+               Francesca Dell’Oro, aims at reconstructing the evolution of modal meanings from the
+               prehistory of the Latin language up to the 7th century CE.</p>
+         </projectDesc>
+         <p>The project’s repository <ref
+               target="https://github.com/WoPoss-project/annotation-schemes"
+               >annotation-schemes</ref> contains documentation about the annotation process and all
+            our customized schemas (formalised in ODD and Relax-NG).</p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab>
+            <s n="1">
+               <gap reason="lost" extent="unknown" unit="line"/>
+               <lb n="1"/>
+               <w pos="NOUN" lemma="Titus" msd="Case=Nom|Gender=Masc|Number=Sing"
+                  >T<ex>itus</ex></w>
+               
+               <w pos="NOUN" lemma="Salivius" msd="Case=Nom|Gender=Masc|Number=Sing"
+                     >Sa<ex>lvius</ex></w>
+               
+               <w pos="NOUN" lemma="Aiopi" msd="Case=Acc|Gender=Masc|Number=Sing">Aio<supplied
+                     evidence="edition">p</supplied><gap/></w>
+               <lb n="2"/>
+               <w pos="NOUN" lemma="Cai" msd="Case=Dat|Gender=Masc|Number=Sing">C<ex>ai</ex></w>
+               
+               <w pos="VERB" lemma="Vibo"
+                  msd="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                     >V<ex>ibi</ex></w>
+               <w pos="NOUN" lemma="filii" msd="Case=Abl|Gender=Neut|Number=Sing"
+                     >f<ex>ilii</ex></w><choice>
+                  <sic>
+                     <w pos="NOUN" lemma="magistr" msd="Case=Abl|Gender=Neut|Number=Sing"
+                           >magist<supplied evidence="edition">r</supplied><lb n="3"/>es</w>
+                  </sic>
+                  <corr>
+                     <w pos="ADV" lemma=":magistri|corr|es">:magistri</w></corr>
+               </choice>
+               <w pos="ADP" lemma="de">de</w>
+               <choice>
+                  <corr><w pos="NOUN" lemma=":vicus" msd="Case=Gen|Gender=Neut|Number=Sing"
+                     >vici</w></corr>
+                  <sic>
+                     <w pos="NOUN" lemma="|corr|veci" msd="Case=Nom|Gender=Masc|Number=Sing"
+                        >veci</w></sic>
+               </choice>
+               <w pos="NOUN" lemma="sententia" msd="Case=Dat|Gender=Fem|Number=Sing"
+                     >s<supplied evidence="edition">ent<ex>entia</ex></supplied></w>
+               <lb n="4"/>
+               <w pos="NOUN" lemma="opus" msd="Case=Nom|Gender=Neut|Number=Sing">opus</w>
+               <choice>
+                  <corr><w pos="VERB" lemma="facio"
+                        msd="Case=Acc|Gender=Neut|Number=Sing|VerbForm=Gdv"> facie <seg
+                           function="marker" ana="#EDR412381">ndum</seg>
+                     </w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|faciundum"
+                        msd="Case=Nom|Gender=Neut|Number=Sing|VerbForm=Gdv">faciundum</w></sic>
+               </choice>
+               <lb n="5"/><choice>
+                  <corr>
+                     <w pos="VERB" lemma="&lt;:curaverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >curaverunt</w></corr>
+                  <sic>
+                     <w pos="VERB" lemma="|corr|covraverunt"
+                        msd="Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act"
+                        >covraverunt</w></sic>
+               </choice>
+               <pc>.</pc>
+            </s>
+         </ab>
+      </body>
+      <back>
+         <fs xml:id="EDR412381" type="marker">
+            <f name="pertinence">
+               <binary value="false"/>
+            </f>
+            <f name="modal">
+               <binary value="false"/>
+            </f>
+            <f name="lemma">
+               <symbol value="ndus"/>
+            </f>
+         </fs>
+      </back>
+   </text>
+</TEI>

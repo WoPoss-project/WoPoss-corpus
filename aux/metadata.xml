@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs_metadata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs_metadata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs_metadata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/WoPoss-project/annotation-schemes/master/schemas/out/tei_woposs_metadata.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -133,7 +131,7 @@
                <objectIdentifier>
                   <objectName>Senatus consultum de Bacchanalibus</objectName>
                </objectIdentifier>
-               <bibl xml:id="senatus_consultum">
+               <bibl xml:id="EDR169402">
                   <location>
                      <bloc>Italia</bloc>
                      <region>Bruttium</region>
@@ -149,11 +147,3230 @@
                   </index>
                   <index indexName="textualFeature">
                      <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
                   </index>
                </bibl>
             </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Trebula Mutuesca</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-15200042">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Samnium</region>
+                     <settlement type="modern">Monteleone Sabino</settlement>
+                     <settlement type="ancient">Trebula Mutuesca</settlement>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0100" cert="low">100 BCE?</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <!--           MISSING DATATION
+               <object>
+               <objectIdentifier>
+                  <objectName>Lucius Offellius Cai filius C.</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-18200265">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria</region>
+                     <settlement type="modern">Benevento</settlement>
+                     <settlement type="ancient">Beneventum</settlement>
+                  </location>
+                  <date type="century" when-custom=""></date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>-->
+
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Beneventum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-12401432">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria</region>
+                     <settlement type="modern">Benevento</settlement>
+                     <settlement type="ancient">Beneventum</settlement>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0030">80 BCE - 30 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Corinthus</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-08200225">
+                  <location>
+                     <bloc>Achaia</bloc>
+                     <settlement type="modern">Korinthos</settlement>
+                     <settlement type="ancient">Corinthus</settlement>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0031">100 BCE - 31 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pompei</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-11400878">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Campania</region>
+                     <settlement>Pompei</settlement>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0150" notAfter="-0080">150 BCE - 80 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Praeneste</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-05800997">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium</region>
+                     <settlement type="modern">Palestrina</settlement>
+                     <settlement type="ancient">Praeneste</settlement>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0051">80 BCE - 51 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Telesia</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-12401748">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Samnium</region>
+                     <settlement type="modern">Telese</settlement>
+                     <settlement type="ancient">Telesia</settlement>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0090" notAfter="-0071">90 BCE - 71 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+
+            <!--  MISSING DATATION
+               <object>
+               <objectIdentifier>
+                  <objectName>De incerta certa</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCEDCS-24700093">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Venetia</region>
+                     <settlement>Barbarano Vicentino</settlement>
+                  </location>                 
+                 <date type="century" when-custom=""></date> 
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Est equos perpulcer</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-24700094">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Venetia</region>
+                     <settlement>Barbarano Vicentino</settlement>
+                  </location>                
+                 <date type="century" when-custom=""></date> 
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Esta via per clivom</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-24700095">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Venetia</region>
+                     <settlement>Barbarano Vicentino</settlement>
+                  </location>                 
+                 <date type="century" when-custom=""></date> 
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Formidat omnes</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-24700096">
+                  <location>
+                     <settlement>Barbarano Vicentino</settlement>
+                     <region>Venetia</region>
+                     <bloc>Italia</bloc>
+                  </location>                 
+                 <date type="century" when-custom=""></date> 
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Mendaces homines sunt</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-24700097">
+                  <location>
+                     <settlement>Barbarano Vicentino</settlement>
+                     <region>Venetia</region>
+                     <bloc>Italia</bloc>
+                  </location>                 
+                 <date type="century" when-custom=""></date> 
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Quod fugis, quod iactas</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-24700104">
+                  <location>
+                     <settlement>Barbarano Vicentino</settlement>
+                     <region>Venetia</region>
+                     <bloc>Italia</bloc>
+                  </location>
+                 <date type="century" when-custom=""></date> 
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>-->
+
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Lascuta</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-05600393">
+                  <location>
+                     <settlement type="modern">Alcalá de los Gazules</settlement>
+                     <settlement type="ancient">Lascuta</settlement>
+                     <bloc>Hispania</bloc>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0189">189 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pompei</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-17100112">
+                  <location>
+                     <settlement>Pompei</settlement>
+                     <region>Campania</region>
+                     <bloc>Italia</bloc>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Early Latin</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Callatis</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDCS-24700169">
+                  <location>
+                     <settlement type="modern">Mangalia</settlement>
+                     <settlement type="ancient">Callatis</settlement>
+                     <bloc>Moesia</bloc>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0106" notAfter="-0101">106 BCE - 101 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Hispellum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR150769">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Umbria (Regio VI)</region>
+                  </location>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="year" notBefore="0004" notAfter="0014">4 - 14</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005393">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0060">100 BCE - 60 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005399">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0108">108 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005400">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0106">106 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua (vicus Dianae Tifatinae)</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005401">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua (vicus Dianae
+                        Tifatinae)</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" when="-0099">99 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua?/Casilinum?</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005408">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua?/Casilinum?</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" when="-0098">98 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005416">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" when="-0084">84 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua?/Casilinum?</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005471">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua?/Casilinum?</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0106">106 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005475">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0108" notAfter="-0095">108 BCE - 95 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR005625">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" when="-0094">94 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Genua - ora a Luna ad Genuam</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR010862">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Liguria (Regio IX), Genua - ora a Luna ad Genuam</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0117">117 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Fanum Fortunae</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR015958">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Umbria (Regio VI), Fanum Fortunae</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0082" notAfter="-0074">82 BCE - 74 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/96">term. non
+                        sep.</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Aletrium</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR071508">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Aletrium</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0149" notAfter="-0090">149 BCE - 90 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis?</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR071640">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0131" notAfter="-0100">131 BCE - 100 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Tarentum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR071651">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria (Regio II), Tarentum</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0090" notAfter="-0044">90 BCE - 44 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Tusculum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR071815">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Tusculum</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0110" notAfter="-0080">110 BCE - 80 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR118149"><location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1"/>
+                  <date type="year" notBefore="-0050" notAfter="-0001">50 BCE - 1 BCE</date><date
+                     type="period">Classical Latin</date><index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR071839">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0051" notAfter="-0001">51 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <!-- no modal markers
+              <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Praeneste</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR072173">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Praeneste</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0051">100 BCE - 51 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+ <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>-->
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR072513">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="year" notBefore="-0070" notAfter="0030">70 BCE - 30 CE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Kroton - Croto</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR072542">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Bruttii et Lucania (Regio III), Kroton - Croto</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0051">80 BCE - 51 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR072973">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0070">100 BCE - 70 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <!-- no modal marker
+              <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pyrgi</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR074273">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Etruria (Regio VII), Pyrgi</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0050" notAfter="-0001">50 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+ <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>-->
+            <!--  no modal marker
+               <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Bantia</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR075000">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria (Regio II), Bantia</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0130" notAfter="-0101">130 BCE - 101 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+ <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>-->
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR080158">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0066" notAfter="-0063">66 BCE - 63 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Capua?/Casilinum?</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR080358">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Capua?/Casilinum?</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0110">110 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR093205">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0088" notAfter="-0078">88 BCE - 78 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR101218">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0050">100 BCE - 50 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <!--   no modal markers
+               <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Beneventum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR102392">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria (Regio II), Beneventum</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0050">100 BCE - 50 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+ <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>-->
+            <!--  no modal markers
+               <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Beneventum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR103395">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria (Regio II), Beneventum</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0060" notAfter="-0040">60 BCE - 40 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+ <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>-->
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR109039">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0170" notAfter="-0145">170 BCE - 145 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis,
+                        carmen</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR109073">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0078" notAfter="-0065">78 BCE - 65 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Praeneste</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR110711">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Praeneste</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0051">80 BCE - 51 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Praeneste</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR110716">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Praeneste</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0150" notAfter="-0130">150 BCE - 130 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR111254">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" when="-0078">78 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR111573">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0093">100 BCE - 93 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Praeneste </objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR112037">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Praeneste </region>
+                  </location>
+                  <date type="century" when-custom="BCE3">3rd c. BCE</date>
+                  <date type="year" notBefore="-0280" notAfter="-0251">280 BCE - 251 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Cremona</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR116430">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Venetia et Histria (Regio X), Cremona</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0050" notAfter="-0001">50 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Aquileia</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR117440">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Venetia et Histria (Regio X), Aquileia</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0175" notAfter="-0125">175 BCE - 125 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/232">honorarius</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR119339">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0001">100 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/79">sacer</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR126808">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="year" notBefore="-0030" notAfter="0030">30 BCE - 30 CE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis,
+                        carmen</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Aeclanum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR132972">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria (Regio II), Aeclanum</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0078" notAfter="-0051">78 BCE - 51 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR134542">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0001">100 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Cora</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR139644">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Cora</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0170" notAfter="-0131">170 BCE - 131 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pompeii</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR143648">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Pompeii</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0043">80 BCE - 43 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/106">cetera</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pompeii</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR144788">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Pompeii</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0043">80 BCE - 43 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/106">cetera</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from pagus Lavernae</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR147377">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Sabina et Samnium (Regio IV)pagus Lavernae</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0001">100 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pompeii</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR147480">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Pompeii</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0060">80 BCE - 60 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pompeii</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR153116">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Pompeii</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0060">80 BCE - 60 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Ferentinum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR155477">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Ferentinum</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0150" notAfter="-0101">150 BCE - 101 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR155939">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0130" notAfter="-0071">130 BCE - 71 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR159314">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0001">100 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Puteoli</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR161096">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Puteoli</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0105">105 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Aufidena</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR165328">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Sabina et Samnium (Regio IV) Aufidena</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0001">100 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Paganica</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR167360">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Sabina et Samnium (Regio IV) Paganica</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0200" notAfter="-0100">200 BCE - 100 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Beneventum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR167668">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria (Regio II), Beneventum</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0050" notAfter="-0001">50 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR168022">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" when="-0081">81 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from unknown location</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR169833">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Regio incerta</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" when="-0111">111 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR170949">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0130" notAfter="-0101">130 BCE - 101 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from unknown location</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR173504">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Regio incerta</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0123" notAfter="-0112">123 BCE - 112 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR175819">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0031">100 BCE - 31 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183054">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE3">3rd c. BCE</date>
+                  <date type="year" notBefore="-0300" notAfter="-0225">300 BCE - 225 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/106">cetera</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183102">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0200" notAfter="-0051">200 BCE - 51 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Cales</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183383">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I), Cales</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0150" notAfter="-0101">150 BCE - 101 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183658">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="year" notBefore="-0050" notAfter="0030">50 BCE - 30 CE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Sulci</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183849">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Sardinia cum insulisSulci</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="year" notBefore="-0027" notAfter="0014">27 BCE - 14 CE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/232">honorarius</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pompeii</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR154819"><location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I)</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0070"> 80 BCE - 70 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183924">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0100" notAfter="-0001">100 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/106">cetera</term>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </object>
+
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Pompeii</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR150879"><location>
+                     <bloc>Italia</bloc>
+                     <region>Latium et Campania cum insulis (Regio I)</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0080" notAfter="-0060">80 BCE - 60 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from pagus Lavernae</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR147563">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Sabina et Samnium (Regio IV)</region>
+                  </location>
+                  <date type="century" when-custom="BCE1"/>
+                  <date type="year" notBefore="-0100" notAfter="-0001"> 100 BCE - 1 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index></bibl>
+            </object>
+            <!--            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Aeclanum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR132972">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria (Regio II)</region>
+                  </location>
+                  <date type="century" when-custom="BCE1"/>
+                  <date type="year" notBefore="-0078" notAfter="-0051">78 BCE - 51 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que</term>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+ <term cRef="#non-dialogue"/>
+                  </index></bibl>
+            </object>-->
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Interamnia Praetuttiorum</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR113995"><location>
+                     <bloc>Italia</bloc>
+                     <region>Picenum (Regio V)</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0050" notAfter="-0014"> 50 BCE - 14 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/263">oper. publ.
+                        priv.que, honorarius</term>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Bantia</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR163413">
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Apulia et Calabria (Regio II)</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0130" notAfter="-0101">130 BCE - 101 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Tibur</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183459"><location>
+                     <bloc>Italia</bloc>
+                     <region>Sabina et Samnium (Regio IV)</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0159" notAfter="-0145">159 BCE - 145 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Sassina</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR079441"><location>
+                     <bloc>Italia</bloc>
+                     <region>Umbria (Regio VI) Sassina</region>
+                  </location><date type="century" when-custom="BCE1"/><date type="year"
+                     notBefore="-0070" notAfter="-0031">70 BCE - 31 BCE</date><date type="period"
+                     >Classical Latin</date><index indexName="genre">
+                     <term cRef="#other"/>
+                     <term ref="http://www.eagle-network.eu/voc/typeins/lod/92">sepulcralis</term>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Clusium</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183504"><location>
+                     <bloc>Italia</bloc>
+                     <region>Etruria (Regio VII), Clusium</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0133" notAfter="-0111">133 BCE - 111 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Clusium</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR183511"><location>
+                     <bloc>Italia</bloc>
+                     <region>Etruria (Regio VII), Clusium</region>
+                  </location>
+                  <date type="century" when-custom="BCE2">1st c. BCE</date>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="year" notBefore="-0133" notAfter="-0087">133 BCE - 87 BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index></bibl>
+            </object>
+            <object>
+               <objectIdentifier>
+                  <objectName>Inscription from Roma</objectName>
+               </objectIdentifier>
+               <bibl xml:id="EDR113978"><location>
+                     <bloc>Italia</bloc>
+                     <region>Roma</region>
+                  </location>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="year" notBefore="-0093" notAfter="-0089">93 BCE - 89 BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index><index indexName="transmission">
+                     <term cRef="#inscription"/>
+                  </index><index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index></bibl>
+
+            </object>
          </listObject>
          <listPerson>
+            <person xml:id="adomman">
+               <persName>Adomnán of Iona</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Hibernia</bloc>
+                  </location>
+               </birth>
+               <floruit>
+                  <location>
+                     <bloc>Britannia</bloc>
+                  </location>
+               </floruit>
+               <listBibl>
+                  <bibl xml:id="locis-sanctis">
+                     <title>De locis sanctis</title>
+                     <date type="century" when-custom="7" cert="low">7</date>
+                     <date type="period">Early Medieval Latin</date>
+                     <index indexName="genre">
+                        <term cRef="#christian"/>
+                        <!--<term cRef="#travel"/>-->
+                     </index>
+                     <index indexName="transmission">
+                        <term cRef="#codex"/>
+                     </index>
+                     <index indexName="textualFeature">
+                        <term cRef="#prose"/>
+                        <term cRef="#non-dialogue"/>
+                     </index>
+                  </bibl>
+               </listBibl>
+            </person>
+            <person xml:id="anon-apollonii">
+               <persName>Anonymous</persName>
+               <sex value="U"/>
+               <listBibl>
+                  <bibl xml:id="historia-apollonii">
+                     <title>Historia Apolonii Regis Tyrii</title>
+                     <date type="century" when-custom="5" cert="low">5th c.</date>
+                     <date type="period">Late Latin</date>
+                     <index indexName="genre">
+                        <term cRef="#fiction"/>
+                     </index>
+                     <index indexName="transmission">
+                        <term cRef="#codex"/>
+                     </index>
+                     <index indexName="textualFeature">
+                        <term cRef="#prose"/>
+                     </index>
+                  </bibl>
+               </listBibl>
+            </person>
+            <person xml:id="anon-rhetorica">
+               <persName>Anonymous</persName>
+               <sex value="U"/>
+               <bibl xml:id="rhetorica-herennium">
+                  <title>Rhetorica ad Herennium</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#rhetoric"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="anon-querolus">
+               <persName>Anonymous</persName>
+               <sex value="U"/>
+               <bibl xml:id="querolus">
+                  <title>Querolus</title>
+                  <date type="century" when-custom="5" cert="medium">V</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#comedy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="anon-iuris">
+               <persName>Anonymous</persName>
+               <sex value="U"/>
+               <floruit>
+                  <location>
+                     <bloc>Thracia</bloc>
+                  </location>
+               </floruit>
+               <bibl xml:id="iuris-civilis">
+                  <title>Corpus Iuris Civilis: Digesta seu Pandectae (I)</title>
+                  <date type="century" when-custom="6">6th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="anon-spangenberg">
+               <persName>Anonymous</persName>
+               <sex value="U"/>
+               <bibl xml:id="spangenberg">
+                  <title>Fragmentum Spangenberg</title>
+                  <date type="century" when-custom="7">7th c.</date>
+                  <date type="period">Early Medieval Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#lexicography"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="anthimus">
+               <persName>Anthimus</persName>
+               <sex value="M"/>
+               <floruit>
+                  <location>
+                     <bloc>Thracia</bloc>
+                  </location>
+               </floruit>
+               <bibl xml:id="observatione-ciborum">
+                  <title>Ad Theodoricum regem Francorum epistula de obseruatione ciborum</title>
+                  <date type="century" when-custom="6">6th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#medicine"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="ausonius">
+               <persName>D. M. Ausonius</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Gallia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="epist-ausonius">
+                  <title>Epistularum (selection)</title>
+                  <date type="century" when-custom="4">4th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+               <!--<bibl xml:id="gratiarum-actio">
+                  <title>Ausonii Burdigalensis Vasatis Gratiarum Actio Ad Grati Angratianum Imperatorem Pro Consulatu</title>
+                  <date type="century" when-custom="4">4th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#oratory"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>-->
+            </person>
+            <person xml:id="benedict">
+               <persName>Benedict of Nursia</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Umbria</region>
+                  </location>
+               </birth>
+               <listBibl>
+                  <bibl xml:id="regula">
+                     <title>Regula Benedicti</title>
+                     <date type="century" when-custom="6">6th c.</date>
+                     <date type="period">Late Latin</date>
+                     <index indexName="genre">
+                        <term cRef="#christian"/>
+                     </index>
+                     <index indexName="transmission">
+                        <term cRef="#codex"/>
+                     </index>
+                     <index indexName="textualFeature">
+                        <term cRef="#prose"/>
+                        <term cRef="#non-dialogue"/>
+                     </index>
+                  </bibl>
+               </listBibl>
+            </person>
+            <person xml:id="boethius">
+               <persName>Boethius</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Umbria</region>
+                  </location>
+               </birth>
+               <bibl xml:id="periermenias">
+                  <title>De interpretatione vel periermenias</title>
+                  <date type="century" when-custom="6">6th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#philosophy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#translation"/>
+                  </index>
+               </bibl>
+               <!--  <bibl xml:id="consolatio-philosophiae">
+                  <title>De consolatione philosophiae</title>
+                  <date type="century" when-custom="6">6th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#philosophy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>-->
+            </person>
+            <person xml:id="brutus">
+               <persName>Brutus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium</region>
+                  </location>
+               </birth>
+               <bibl xml:id="epist-brutus">
+                  <title>Letters from Brutus</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="cato">
+               <persName>Cato the Elder</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium</region>
+                  </location>
+               </birth>
+               <listBibl>
+                  <bibl xml:id="de-agricultura">
+                     <title>De agri cultura</title>
+                     <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                     <date type="period">Early Latin</date>
+                     <index indexName="genre">
+                        <term cRef="#agriculture"/>
+                     </index>
+                     <index indexName="transmission">
+                        <term cRef="#codex"/>
+                     </index>
+                     <index indexName="textualFeature">
+                        <term cRef="#prose"/>
+                        <term cRef="#non-dialogue"/>
+                     </index>
+                  </bibl>
+               </listBibl>
+            </person>
+            <person xml:id="caesarius">
+               <persName>Caesarius of Arles</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Gallia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="epist-caesarius">
+                  <title>Epistolae</title>
+                  <date type="century" when-custom="6">6th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="censorinus">
+               <persName>Censorinus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="die-natali">
+                  <title>De die natali liber</title>
+                  <date type="century" when-custom="3">3rd c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#compilation"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="cicero">
+               <persName>Cicero</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium</region>
+                  </location>
+               </birth>
+               <!--               <bibl xml:id="divinatione">
+                  <title>De Divinatione</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#philosophy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>-->
+               <bibl xml:id="oratio-philippica">
+                  <title>In M. Antonium oratio philippica prima</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#oratory"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="epist-cicero">
+                  <title>Letters to Brutus</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="timaeus">
+                  <title>Timaeus</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#philosophy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                     <term cRef="#translation"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="de-inventione">
+                  <title>De inventione</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#rhetoric"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+
+            <person xml:id="terentianus">
+               <persName>Claudius Terentianus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Aegyptus</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="epis-terentianus">
+                  <title>Epistolae</title>
+                  <date type="century" when-custom="2">2nd c.</date>
+                  <date type="period">Postclassical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#scroll"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="columbanus">
+               <persName>Columbanus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Hibernia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="carmina-columbanus">
+                  <title>Carmina</title>
+                  <date type="century" when-custom="7">6th c.</date>
+                  <date type="period">Early Medieval Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="crisconius">
+               <persName>Crisconius Africanus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Africa</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="breviarum">
+                  <title>Breviarium canonicum</title>
+                  <date type="century" when-custom="7">6th c.</date>
+                  <date type="period">Early Medieval Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#legal"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="cyprian">
+               <persName>Cyprian</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Carthago</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="epist-cyprian">
+                  <title>Epistolae (selection)</title>
+                  <date type="century" when-custom="3">3rd c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="egeria">
+               <persName>Egeria</persName>
+               <sex value="F"/>
+               <birth cert="low">
+                  <location>
+                     <bloc>Hispania</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="itinerarium">
+                  <title>Itinerarium Egeriae</title>
+                  <date type="century" when-custom="5">V</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#travel"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="eumenius">
+               <persName>Eumenius</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Gallia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="scholis">
+                  <title>Pro instaurandis scholis</title>
+                  <date type="century" when-custom="3">3rd c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#oratory"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="gargilius-martialis">
+               <persName>Gargilius Martialis</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Africa</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="holeribus-pomis">
+                  <title>Medicinae ex holeribus et pomis</title>
+                  <date type="century" when-custom="3">3rd c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#medicine"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="gregory-i">
+               <persName>Gregory I</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="vita-benedicti">
+                  <title>Dialogi: Vita Benedicti</title>
+                  <date type="century" when-custom="6">6th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#christian"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="gregory-tours">
+               <persName>Gregory of Tours</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Gallia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="cursu-stellarum">
+                  <title>De cursu stellarum ratio</title>
+                  <date type="century" when-custom="6">6th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#cosmography"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+
+            <person xml:id="isidore">
+               <persName>Isidore of Seville</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Hispania</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="etymologiae">
+                  <title>Etymologiae: de medicina</title>
+                  <date type="century" when-custom="7">7th c.</date>
+                  <date type="period">Early Medieval Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#medicine"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="jerome">
+               <persName>Jerome of Stridon</persName>
+               <sex value="M"/>
+               <birth>
+                  <date>c. 342 – c. 347</date>
+                  <location>
+                     <bloc>Dalmatia</bloc>
+                  </location>
+               </birth>
+               <death>420</death>
+               <bibl xml:id="john">
+                  <title>Evangelium secundum Iohannem</title>
+                  <date type="century" when-custom="4">4th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#christian"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#translation"/>
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="mark">
+                  <title>Evangelium secundum Marcum</title>
+                  <date type="century" when-custom="4">4th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#christian"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#translation"/>
+                     <term cRef="#non-dialogue"/>
+                     <term cRef="#prose"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+               </bibl>
+
+               <bibl xml:id="matthew">
+                  <title>Evangelium secundum Mattheum</title>
+                  <date type="century" when-custom="4">4th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#christian"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#translation"/>
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="luke">
+                  <title>Evangelium secundum Lucam</title>
+                  <date type="century" when-custom="4">4th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#christian"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#translation"/>
+                     <term cRef="#non-dialogue"/>
+                     <term cRef="#prose"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+               </bibl>
+            </person>
+
+            <person xml:id="juvenal">
+               <persName>Juvenal</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium</region>
+                  </location>
+               </birth>
+               <bibl xml:id="satires">
+                  <title>Satires</title>
+                  <date type="century" when-custom="2">2nd c.</date>
+                  <date type="period">Postclassical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </person>
+
+            <person xml:id="lactantius">
+               <persName>Lactantius</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Africa</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="carmina-lactantius">
+                  <title>Carmina</title>
+                  <date type="century" when-custom="3">3rd c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="passione-domini">
+                  <title>Carmen de passione domini</title>
+                  <date type="century" when-custom="3">3rd c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#poetry"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                  </index>
+               </bibl>
+            </person>
+
+            <person xml:id="leo">
+               <persName>Leo II</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Byzantium</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="epist-leo">
+                  <title>Epistolae</title>
+                  <date type="century" when-custom="7">7th c.</date>
+                  <date type="period">Early Medieval Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+
+
+            <person xml:id="lucretius">
+               <persName>Lucretius</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Campania</region>
+                  </location>
+               </birth>
+               <bibl xml:id="rerum-natura">
+                  <title>De Rerum Natura</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#philosophy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
             <person xml:id="minucius">
                <persName>Minucius Felix, Marcus</persName>
                <sex value="M"/>
@@ -222,12 +3439,252 @@
                   </index>
                   <index indexName="textualFeature">
                      <term cRef="#prose"/>
+                     <term cRef="#mixed-dial"/>
+
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="plautus">
+               <persName>Plautus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Aemilia</region>
+                  </location>
+               </birth>
+               <bibl xml:id="asinaria">
+                  <title>Asinaria</title>
+                  <date type="century" when-custom="BCE3">3rd c. BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#comedy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="poenulus">
+                  <title>Poenulus</title>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#comedy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="aulularia">
+                  <title>Aulularia</title>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#comedy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="pliny">
+               <persName>Pliny the Younger</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Transpadana</region>
+                  </location>
+               </birth>
+               <bibl xml:id="epist-pliny">
+                  <title>Letters</title>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="period">Postclassical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="quintilian">
+               <persName>Quintilian</persName>
+               <birth>
+                  <location>
+                     <bloc>Hispania</bloc>
+                  </location>
+               </birth>
+               <sex value="M"/>
+               <bibl xml:id="institutio">
+                  <title>Institutio Oratoria</title>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="period">Postclassical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#rhetoric"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="sallust">
+               <persName>Sallust</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Samnium</region>
+                  </location>
+               </birth>
+               <bibl xml:id="bellum-iugurthinum">
+                  <title>Bellum Iugurthinum</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#history"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="seneca-elder">
+               <persName>Seneca the Elder</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Samnium</region>
+                  </location>
+               </birth>
+               <bibl xml:id="suasoriae">
+                  <title>Suasoriae</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#oratory"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="seneca-younger">
+               <persName>Seneca the Younger</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Hispania</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="phaedra">
+                  <title>Phaedra</title>
+                  <date type="century" when-custom="1">1st c.</date>
+                  <date type="period">Postclassical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#tragedy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#dialogue"/>
                   </index>
                </bibl>
             </person>
 
+            <person xml:id="symmachus">
+               <persName>Symmachus</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Gallia</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="epist-symmachus">
+                  <title>Epistolae (Book I, selection)</title>
+                  <date type="century" when-custom="4">4th c.</date>
+                  <date type="period">Late Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#letter"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="terence">
+               <persName>Terence</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Africa</bloc>
+                  </location>
+               </birth>
+               <bibl xml:id="adelphi">
+                  <title>Adelphi</title>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#comedy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+               <bibl xml:id="hecyra">
+                  <title>Hecyra</title>
+                  <date type="century" when-custom="BCE2">2nd c. BCE</date>
+                  <date type="period">Early Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#comedy"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#verse"/>
+                     <term cRef="#dialogue"/>
+                  </index>
+               </bibl>
+            </person>
             <person xml:id="tertullian">
-               <persName>Tertullianus</persName>
+               <persName>Tertullian</persName>
                <sex value="M"/>
                <birth>
                   <location>
@@ -246,6 +3703,32 @@
                   </index>
                   <index indexName="textualFeature">
                      <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
+                  </index>
+               </bibl>
+            </person>
+            <person xml:id="vitruvius">
+               <persName>Vitruvius</persName>
+               <sex value="M"/>
+               <birth>
+                  <location>
+                     <bloc>Italia</bloc>
+                     <region>Latium</region>
+                  </location>
+               </birth>
+               <bibl xml:id="architectura">
+                  <title>De Architectura</title>
+                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="period">Classical Latin</date>
+                  <index indexName="genre">
+                     <term cRef="#architecture"/>
+                  </index>
+                  <index indexName="transmission">
+                     <term cRef="#codex"/>
+                  </index>
+                  <index indexName="textualFeature">
+                     <term cRef="#prose"/>
+                     <term cRef="#non-dialogue"/>
                   </index>
                </bibl>
             </person>

@@ -3406,7 +3406,7 @@
                </birth>
                <bibl xml:id="metamorphoses">
                   <title>Metamorphoses</title>
-                  <date type="century" when-custom="BCE1">1st c. BCE</date>
+                  <date type="century" when-custom="BCE1">1st c.</date>
                   <date type="period">Classical Latin</date>
                   <index indexName="genre">
                      <term cRef="#poetry"/>

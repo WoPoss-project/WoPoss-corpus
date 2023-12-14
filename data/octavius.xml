@@ -27978,7 +27978,7 @@
                <symbol value="acceptability"/>
             </f>
             <f name="degree">
-               <symbol value="not_very_desirable"/>
+               <symbol value="undesirable"/>
             </f>
          </fs>
          <fs xml:id="oct312253" type="relation">
@@ -27991,7 +27991,7 @@
                <symbol value="acceptability"/>
             </f>
             <f name="degree">
-               <symbol value="not_very_desirable"/>
+               <symbol value="undesirable"/>
             </f>
          </fs>
          <fs xml:id="oct215214" type="relation">
@@ -33891,7 +33891,7 @@
                <symbol value="acceptability"/>
             </f>
             <f name="degree">
-               <symbol value="not_very_desirable"/>
+               <symbol value="undesirable"/>
             </f>
             <f name="function">
                <symbol value="rhetoric"/>

@@ -1746,6 +1746,7 @@
                      msd="Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">
                      <seg function="marker" ana="#EDR2566901">malent</seg>
                   </w>
+                  </seg>
                   <seg function="scope" next="inmittere" part="Y" ana="#EDR2566919 #EDR2566955">
                      <w pos="ADP" lemma="in">in</w>
                      <w pos="PRON" lemma="is" msd="Case=Abl|Gender=Masc|Number=Sing">eo</w>
@@ -1753,7 +1754,7 @@
                      <w pos="ADJ" lemma="alius" msd="Case=Acc|Gender=Neut|Number=Plur">alia</w>
                      <w pos="NOUN" lemma="pratum" msd="Case=Acc|Gender=Neut|Number=Plur">prata</w>
                   </seg>
-               </seg>
+               
                <seg function="scope" ana="#EDR2566919" part="Y">
                   <w pos="VERB" lemma="inmitto" msd="Tense=Pres|VerbForm=Inf|Voice=Act"
                      function="main">inmittere</w>
